@@ -43,16 +43,19 @@
     <Content Include="SecurityLock.ico" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="TestLicenseWinForm\CAS.License.CommunityFree.lic" />
+    <EmbeddedResource Include="CommServer\CAS.License.CommServer.NetworkConfig.DefaultDemo.lic" />
+    <EmbeddedResource Include="OPCViewer\CAS.License.DefaultDemo.lic" />
+    <EmbeddedResource Include="TestLicenseWinForm\CAS.License.CommunityFree.lic" />
     <EmbeddedResource Include="TestLicenseWinForm\CAS.License.DefaultDemo.lic" />
     <EmbeddedResource Include="TestLicenseWinForm\CAS.Profesional.tem.A123456.lic" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="DPDiagnostics\CAS.License.DefaultDemo.lic" />
+  </ItemGroup>
+  <ItemGroup>
     <Folder Include="CommServerUA\" />
-    <Folder Include="CommServer\" />
     <Folder Include="DataPorter\" />
     <Folder Include="OPCUAViewer\" />
-    <Folder Include="OPCViewer\" />
     <Folder Include="UAModelDesigner\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
