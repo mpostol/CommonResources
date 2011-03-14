@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="TestLicenseWinForm\CAS.License.CommunityFree.lic" />
+    <EmbeddedResource Include="TestLicenseWinForm\CAS.License.DefaultDemo.lic" />
     <EmbeddedResource Include="TestLicenseWinForm\CAS.Profesional.tem.A123456.lic" />
   </ItemGroup>
   <ItemGroup>
