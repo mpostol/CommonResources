@@ -57,9 +57,11 @@
     <EmbeddedResource Include="UA.ModelDesigner\CAS.License.DefaultDemo.lic" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="CommServerUA\" />
+    <EmbeddedResource Include="CommServerUA\CAS.License.DefaultDemo.lic" />
+    <EmbeddedResource Include="OPC.UA.Viewer\CAS.License.DefaultDemo.lic" />
+  </ItemGroup>
+  <ItemGroup>
     <Folder Include="DataPorter\" />
-    <Folder Include="OPCUAViewer\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
