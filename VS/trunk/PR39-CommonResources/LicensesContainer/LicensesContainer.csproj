@@ -53,8 +53,8 @@
     <EmbeddedResource Include="DPDiagnostics\CAS.License.DefaultDemo.lic" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="UAModelDesigner\CAS.License.ASMDPro_Trial.lic" />
-    <EmbeddedResource Include="UAModelDesigner\CAS.License.DefaultDemo.lic" />
+    <EmbeddedResource Include="UA.ModelDesigner\CAS.License.ASMDPro_Trial.lic" />
+    <EmbeddedResource Include="UA.ModelDesigner\CAS.License.DefaultDemo.lic" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CommServerUA\" />
