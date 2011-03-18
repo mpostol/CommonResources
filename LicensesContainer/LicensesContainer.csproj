@@ -43,25 +43,25 @@
     <Content Include="SecurityLock.ico" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="CommServer\CAS.License.CommServer.NetworkConfig.DefaultDemo.lic" />
-    <EmbeddedResource Include="OPCViewer\CAS.License.DefaultDemo.lic" />
-    <EmbeddedResource Include="TestLicenseWinForm\CAS.License.CommunityFree.lic" />
-    <EmbeddedResource Include="TestLicenseWinForm\CAS.License.DefaultDemo.lic" />
-    <EmbeddedResource Include="TestLicenseWinForm\CAS.Profesional.tem.A123456.lic" />
+    <EmbeddedResource Include="CommServer\CAS.License.CommServer.NetworkConfig.__DefaultDemo__.lic" />
+    <EmbeddedResource Include="OPCViewer\CAS.License.__DefaultDemo__.lic" />
+    <EmbeddedResource Include="TestLicenseWinForm\CAS.License.__CommunityFree__.lic" />
+    <EmbeddedResource Include="TestLicenseWinForm\CAS.License.__DefaultDemo__.lic" />
+    <EmbeddedResource Include="TestLicenseWinForm\CAS.Profesional.tem.__A123456__.lic" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="DPDiagnostics\CAS.License.DefaultDemo.lic" />
+    <EmbeddedResource Include="DPDiagnostics\CAS.License.__DefaultDemo__.lic" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="UA.ModelDesigner\CAS.License.ASMDPro_Trial.lic" />
-    <EmbeddedResource Include="UA.ModelDesigner\CAS.License.DefaultDemo.lic" />
+    <EmbeddedResource Include="UA.ModelDesigner\CAS.License.__DefaultDemo__.lic" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="CommServerUA\CAS.License.DefaultDemo.lic" />
-    <EmbeddedResource Include="OPC.UA.Viewer\CAS.License.DefaultDemo.lic" />
+    <EmbeddedResource Include="CommServerUA\CAS.License.__DefaultDemo__.lic" />
+    <EmbeddedResource Include="OPC.UA.Viewer\CAS.License.__DefaultDemo__.lic" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="DataPorter\CAS.License.DefaultDemo.lic" />
+    <EmbeddedResource Include="DataPorter\CAS.License.__DefaultDemo__.lic" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
