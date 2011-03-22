@@ -75,6 +75,22 @@
     <EmbeddedResource Include="CommServer\CAS.License.CommServer.NetworkConfig.CS-SE-4K.__cb7c93d3__.lic" />
     <EmbeddedResource Include="CommServer\CAS.License.CommServer.NetworkConfig.CS-SE-500.__e91d0408__.lic" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CommServer\CAS.License.CommServer.NetworkConfig.OPC_CONTROL_1K.__be652b14__.lic" />
+    <EmbeddedResource Include="CommServer\CAS.License.CommServer.NetworkConfig.OPC_CONTROL_200.__f1f4126c__.lic" />
+    <EmbeddedResource Include="CommServer\CAS.License.CommServer.NetworkConfig.OPC_MBUS_1K.__ccbf5405__.lic" />
+    <EmbeddedResource Include="CommServer\CAS.License.CommServer.NetworkConfig.OPC_MBUS_200.__a926caff__.lic" />
+    <EmbeddedResource Include="CommServer\CAS.License.CommServer.NetworkConfig.OPC_MODBUS_IP1K.__ecbe84fa__.lic" />
+    <EmbeddedResource Include="CommServer\CAS.License.CommServer.NetworkConfig.OPC_MODBUS_IP200.__b2a6ae15__.lic" />
+    <EmbeddedResource Include="CommServer\CAS.License.CommServer.NetworkConfig.OPC_MODBUS_RS1K.__a03bec49__.lic" />
+    <EmbeddedResource Include="CommServer\CAS.License.CommServer.NetworkConfig.OPC_MODBUS_RS200.__c06c6103__.lic" />
+    <EmbeddedResource Include="CommServer\CAS.License.CommServer.NetworkConfig.OPC_SAIA_IP1K.__dba485ea__.lic" />
+    <EmbeddedResource Include="CommServer\CAS.License.CommServer.NetworkConfig.OPC_SAIA_IP200.__cd9945c2__.lic" />
+    <EmbeddedResource Include="CommServer\CAS.License.CommServer.NetworkConfig.OPC_SAIA_RS1K.__a9d120ee__.lic" />
+    <EmbeddedResource Include="CommServer\CAS.License.CommServer.NetworkConfig.OPC_SAIA_RS200.__ef08931e__.lic" />
+    <EmbeddedResource Include="CommServer\CAS.License.CommServer.NetworkConfig.OPC_XLS_1K.__cef4ea82__.lic" />
+    <EmbeddedResource Include="CommServer\CAS.License.CommServer.NetworkConfig.OPC_XLS_200.__e923a012__.lic" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
