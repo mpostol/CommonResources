@@ -91,6 +91,11 @@
     <EmbeddedResource Include="CommServer\CAS.License.CommServer.NetworkConfig.OPC_XLS_1K.__cef4ea82__.lic" />
     <EmbeddedResource Include="CommServer\CAS.License.CommServer.NetworkConfig.OPC_XLS_200.__e923a012__.lic" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UA.ModelDesigner\CAS.License.ADSMD.PE.__ec0a9fe2__.lic" />
+    <EmbeddedResource Include="UA.ModelDesigner\CAS.License.ADSMD.SE.NC.__StdNC__.lic" />
+    <EmbeddedResource Include="UA.ModelDesigner\CAS.License.ADSMD.SE.__c06ec016__.lic" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
