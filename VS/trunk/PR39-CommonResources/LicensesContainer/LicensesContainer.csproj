@@ -66,6 +66,15 @@
   <ItemGroup>
     <EmbeddedResource Include="CommServer\CAS.License.CommServer.NetworkConfig.CS-PE-1K.__cc98a787__.lic" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CommServer\CAS.License.CommServer.NetworkConfig.CS-PE-10K.__f8e7a5e1__.lic" />
+    <EmbeddedResource Include="CommServer\CAS.License.CommServer.NetworkConfig.CS-PE-4K.__e75c7039__.lic" />
+    <EmbeddedResource Include="CommServer\CAS.License.CommServer.NetworkConfig.CS-PE-60K.__cbbffd32__.lic" />
+    <EmbeddedResource Include="CommServer\CAS.License.CommServer.NetworkConfig.CS-SE-1K.__ad6a7022__.lic" />
+    <EmbeddedResource Include="CommServer\CAS.License.CommServer.NetworkConfig.CS-SE-300.__a7e69852__.lic" />
+    <EmbeddedResource Include="CommServer\CAS.License.CommServer.NetworkConfig.CS-SE-4K.__cb7c93d3__.lic" />
+    <EmbeddedResource Include="CommServer\CAS.License.CommServer.NetworkConfig.CS-SE-500.__e91d0408__.lic" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
