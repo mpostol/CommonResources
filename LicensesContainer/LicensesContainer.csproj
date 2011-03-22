@@ -54,7 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="UA.ModelDesigner\CAS.License.ASMDPro_Trial.lic" />
-    <EmbeddedResource Include="UA.ModelDesigner\CAS.License.__DefaultDemo__.lic" />
+    <EmbeddedResource Include="UA.ModelDesigner\CAS.License.ADSMD.PE.DEMO.__DefaultDemo__.lic" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="CommServerUA\CAS.License.__DefaultDemo__.lic" />
