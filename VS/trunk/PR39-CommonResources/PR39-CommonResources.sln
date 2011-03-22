@@ -3,7 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LicensesContainer", "LicensesContainer\LicensesContainer.csproj", "{234A138E-4E17-4F12-84A3-A920DDAE0D86}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LicenseContainer.UT", "LicenseContainer.UT\LicenseContainer.UT.csproj", "{149BC81B-7225-4C3F-B77D-D0A8982F72D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2E6838A2-9C08-4F31-B6BD-9A38A0A619CB}"
+	ProjectSection(SolutionItems) = preProject
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		PR39-CommonResources.vsmdi = PR39-CommonResources.vsmdi
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = PR39-CommonResources.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -13,6 +24,10 @@ Global
 		{234A138E-4E17-4F12-84A3-A920DDAE0D86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{234A138E-4E17-4F12-84A3-A920DDAE0D86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{234A138E-4E17-4F12-84A3-A920DDAE0D86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{149BC81B-7225-4C3F-B77D-D0A8982F72D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{149BC81B-7225-4C3F-B77D-D0A8982F72D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{149BC81B-7225-4C3F-B77D-D0A8982F72D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{149BC81B-7225-4C3F-B77D-D0A8982F72D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
