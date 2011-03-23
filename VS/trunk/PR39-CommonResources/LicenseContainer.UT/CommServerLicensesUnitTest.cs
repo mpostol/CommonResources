@@ -6,6 +6,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.IO;
 using System.Reflection;
 using CAS.Lib.RTLib.Utils;
+using System.Diagnostics;
 
 namespace LicenseContainer.UT
 {
@@ -68,11 +69,7 @@ namespace LicenseContainer.UT
       //
       // TODO: Add test logic	here
       //
-      string template_class;
-      using ( StreamReader sr1 = new StreamReader( Assembly.GetExecutingAssembly().GetManifestResourceStream( "LicenseContainer.UT.LicenseTester.cs" ) ) )
-      {
-        template_class = sr1.ReadToEnd();
-      }
+
 
       using ( StreamReader sr2 = new StreamReader( Assembly.GetExecutingAssembly().GetManifestResourceStream( "LicenseContainer.UT.CommServer.csv" ) ) )
       {
@@ -81,6 +78,7 @@ namespace LicenseContainer.UT
         string[] header0 = null;
         string[] header1 = null;
         string[] elements;
+        List<GuidInstanceAndTestDefinition> tests = new List<GuidInstanceAndTestDefinition>();
         do
         {
           line = sr2.ReadLine();
@@ -90,7 +88,26 @@ namespace LicenseContainer.UT
           if ( linenumber == 0 )
             header0 = elements;
           else if ( linenumber == 1 )
+          {
             header1 = elements;
+            GuidInstanceAndTestDefinition singleTestDefinition = null;
+            for ( int i = 2; i < header1.Length; i++ )
+            {
+              Guid guid = Guid.Empty;
+              try { guid = new Guid( header1[ i ] ); }
+              catch { }
+              if ( !guid.Equals( Guid.Empty ) )
+              {
+                singleTestDefinition = new GuidInstanceAndTestDefinition( guid, header0[ i ], i );
+                tests.Add( singleTestDefinition );
+              }
+              else
+                if ( singleTestDefinition != null )
+                {
+                  singleTestDefinition.TestDictionary.Add( i, header1[ i ] );
+                }
+            }
+          }
           if ( linenumber > 1 )
           {
             try
@@ -101,27 +118,21 @@ namespace LicenseContainer.UT
             {
               Assert.Fail( string.Format( "Cannot install license {0} {1} (reason: {2})", elements[ 0 ], elements[ 1 ], ex.Message ) );
             }
-            for ( int i = 2; i < header1.Length; i++ )
+            foreach ( GuidInstanceAndTestDefinition giatd in tests )
             {
-              Guid guid = Guid.Empty;
-              try { guid = new Guid( header1[ i ] ); }
-              catch { }
-              if ( !guid.Equals( Guid.Empty ) )
+              int expected = int.Parse( elements[ giatd.Index ] );
+              bool succeded_actual = true;
+              try
               {
-                int expected = int.Parse( elements[ i ] );
-                string my_class = template_class.Replace( "//%%GuidAttribute", string.Format( "[GuidAttribute( \"{0}\" )]", header1[ i ] ) );
-                CSharpStreamCompiller cssc = new CSharpStreamCompiller( my_class, new string[] { "CAS.CodeProtect.dll" } );
-                bool succeded_actual = true;
-                try
-                {
-                  object o = cssc.CompiledAssembly.CreateInstance( "LicenseContainer.UT.LicenseTester" );
-                }
-                catch
-                {
-                  succeded_actual = false;
-                }
-                Assert.AreEqual( expected > 0, succeded_actual, string.Format( "license test has failed!, Product: {0}, Function: {1}", elements[ 0 ], header0[ i ] ) );
+                object o = giatd.CompiledAssembly.CreateInstance( "LicenseContainer.UT.LicenseTester" );
               }
+              catch
+              {
+                succeded_actual = false;
+              }
+              string productAndFunctionInfo = string.Format( "Product: {0}, Function: {1}", elements[ 0 ], header0[ giatd.Index ] );
+              Assert.AreEqual( expected > 0, succeded_actual, string.Format( "license test has failed! {0}", productAndFunctionInfo ) );
+              Console.WriteLine( string.Format( "Passed: {0}", productAndFunctionInfo ) );
             }
           }
           linenumber++;

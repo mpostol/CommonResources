@@ -1,0 +1,9 @@
+#Symbol;Code;OPC Viewer: OPC Environment GUID;OPC Viewer:  Processing Environment GUID;Professional operations GUID;Professional operation Volume;Standard operations GUID;Standard operations Value;DataPorter main processing engine GUID;DataPorter main processing engine Volume;OPC Servers GUID
+#Symbol;Code;bfddbfb8-332e-473b-9fda-3621699bd28b;146afc90-4872-418d-b97a-d691dcf7cf5b;27746d6c-9693-4de3-b904-d1bc5ed885d2;Volume;2b7a091d-02b5-4d24-ba83-cd6c42733abd;Volume;fb08ca65-ae23-4322-83ca-010d229306aa;Volume;ce855cce-6d00-414b-bb2f-269ad2951d10
+CDP-PE-500;eb6ca3ae;1;1;1;500;1;500;1;500;5
+CDP-PE-2K;e32b50a6;1;1;1;2000;1;2000;1;2000;5
+CDP-PE-10K;db4a343c;1;1;1;10000;1;10000;1;10000;5
+CDP-PE-60K;cfd56735;1;1;1;60000;1;60000;1;60000;10
+CDP-SE-500;f9d9cd42;1;1;0;0;1;500;1;500;4
+CDP-SE-2K;f307ac0d;1;1;0;0;1;2000;1;2000;4
+CDP-SE-10K;d5cface1;1;1;0;0;1;10000;1;10000;4
