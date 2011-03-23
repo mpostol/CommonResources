@@ -31,12 +31,12 @@ namespace LicenseContainer.UT
     protected override void TraceFailureReason( string reason )
     {
       base.TraceFailureReason( reason );
-      throw new LicenseException( this.GetType(), this, reason );
+      //throw new LicenseException( this.GetType(), this, reason );
     }
     protected override void TraceNoLicenseFile( string reason )
     {
       base.TraceNoLicenseFile( reason );
-      throw new LicenseException( this.GetType(), this, "No license file found, because: " + reason );
+      //throw new LicenseException( this.GetType(), this, "No license file found, because: " + reason );
     }
     public LicenseTester()
       : base( int.MaxValue, TimeSpan.MaxValue ) { }

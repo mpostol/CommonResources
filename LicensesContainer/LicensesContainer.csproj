@@ -87,11 +87,22 @@
     <EmbeddedResource Include="CommServer\CAS.License.CommServer.NetworkConfig.OPC_XLS_200.__e923a012__.lic" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="DataPorter\CAS.License.CDP-PE-500.__eb6ca3ea__.lic" />
+    <EmbeddedResource Include="UA.ModelDesigner\CAS.License.ASMD.PE.DEMO.__DefaultDemo__.lic" />
+    <EmbeddedResource Include="UA.ModelDesigner\CAS.License.ASMD.PE.__ec0a9fe2__.lic" />
+    <EmbeddedResource Include="UA.ModelDesigner\CAS.License.ASMD.SE.NC.__StdNC__.lic" />
+    <EmbeddedResource Include="UA.ModelDesigner\CAS.License.ASMD.SE.__c06ec016__.lic" />
+  </ItemGroup>
+  <ItemGroup>
     <EmbeddedResource Include="CommServerUA\CAS.License.CommServerUA__DefaultDemo__.lic" />
-    <None Include="UA.ModelDesigner\CAS.License.ASMD.PE.DEMO.__DefaultDemo__.lic" />
-    <None Include="UA.ModelDesigner\CAS.License.ASMD.PE.__ec0a9fe2__.lic" />
-    <None Include="UA.ModelDesigner\CAS.License.ASMD.SE.NC.__StdNC__.lic" />
-    <None Include="UA.ModelDesigner\CAS.License.ASMD.SE.__c06ec016__.lic" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DataPorter\CAS.License.CDP-PE-10K.__db4a343c__.lic" />
+    <EmbeddedResource Include="DataPorter\CAS.License.CDP-PE-2K.__e32b50a6__.lic" />
+    <EmbeddedResource Include="DataPorter\CAS.License.CDP-PE-60K.__cfd56735__.lic" />
+    <EmbeddedResource Include="DataPorter\CAS.License.CDP-SE-10K.__d5cface1__.lic" />
+    <EmbeddedResource Include="DataPorter\CAS.License.CDP-SE-2K.__f307ac0d__.lic" />
+    <EmbeddedResource Include="DataPorter\CAS.License.CDP-SE-500.__f9d9cd42__.lic" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
