@@ -93,7 +93,14 @@ namespace LicenseContainer.UT
             header1 = elements;
           if ( linenumber > 1 )
           {
-            CAS.Lib.CodeProtect.LibInstaller.InstalLicense( "TestUser", "CAS", "techsupp@cas.eu", true, "CommServer", elements[ 1 ] );
+            try
+            {
+              CAS.Lib.CodeProtect.LibInstaller.InstalLicense( "TestUser", "CAS", "techsupp@cas.eu", true, "CommServer", elements[ 1 ] );
+            }
+            catch ( Exception ex )
+            {
+              Assert.Fail( string.Format( "Cannot install license {0} {1} (reason: {2})", elements[ 0 ], elements[ 1 ], ex.Message ) );
+            }
             for ( int i = 2; i < header1.Length; i++ )
             {
               Guid guid = Guid.Empty;
