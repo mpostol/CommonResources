@@ -56,7 +56,6 @@
     <EmbeddedResource Include="UA.ModelDesigner\CAS.License.ADSMD.PE.DEMO.__DefaultDemo__.lic" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="CommServerUA\CAS.License.__DefaultDemo__.lic" />
     <EmbeddedResource Include="OPC.UA.Viewer\CAS.License.__DefaultDemo__.lic" />
   </ItemGroup>
   <ItemGroup>
@@ -94,6 +93,9 @@
     <EmbeddedResource Include="UA.ModelDesigner\CAS.License.ADSMD.PE.__ec0a9fe2__.lic" />
     <EmbeddedResource Include="UA.ModelDesigner\CAS.License.ADSMD.SE.NC.__StdNC__.lic" />
     <EmbeddedResource Include="UA.ModelDesigner\CAS.License.ADSMD.SE.__c06ec016__.lic" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CommServerUA\CAS.License.CommServerUA.NetworkConfig.__DefaultDemo__.lic" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
