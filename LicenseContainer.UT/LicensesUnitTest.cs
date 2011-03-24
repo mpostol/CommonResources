@@ -27,10 +27,10 @@ namespace LicenseContainer.UT
   /// Summary description for UnitTest1
   /// </summary>
   [TestClass]
-  public class CommServerLicensesUnitTest
+  public class LicensesUnitTest
   {
     readonly string csv_file_templateformat = "LicenseContainer.UT.{0}.csv";
-    public CommServerLicensesUnitTest()
+    public LicensesUnitTest()
     {
       //
       // TODO: Add constructor logic here

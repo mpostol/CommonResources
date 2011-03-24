@@ -55,7 +55,7 @@
     <EmbeddedResource Include="LicenseTester.cs" />
     <Compile Include="GuidInstanceAndTestDefinition.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="CommServerLicensesUnitTest.cs" />
+    <Compile Include="LicensesUnitTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="AuthoringTests.txt" />
