@@ -87,7 +87,7 @@
     <EmbeddedResource Include="CommServer\CAS.License.CommServer.NetworkConfig.OPC_XLS_200.__e923a012__.lic" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="DataPorter\CAS.License.CDP-PE-500.__eb6ca3ea__.lic" />
+    <EmbeddedResource Include="DataPorter\CAS.License.CDP-PE-500.__eb6ca3ae__.lic" />
     <EmbeddedResource Include="UA.ModelDesigner\CAS.License.ASMD.PE.DEMO.__DefaultDemo__.lic" />
     <EmbeddedResource Include="UA.ModelDesigner\CAS.License.ASMD.PE.__ec0a9fe2__.lic" />
     <EmbeddedResource Include="UA.ModelDesigner\CAS.License.ASMD.SE.NC.__StdNC__.lic" />
