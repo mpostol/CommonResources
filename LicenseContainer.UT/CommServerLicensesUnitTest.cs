@@ -29,6 +29,7 @@ namespace LicenseContainer.UT
   [TestClass]
   public class CommServerLicensesUnitTest
   {
+    readonly string csv_file_templateformat = "LicenseContainer.UT.{0}.csv";
     public CommServerLicensesUnitTest()
     {
       //
@@ -77,14 +78,26 @@ namespace LicenseContainer.UT
     #endregion
 
     [TestMethod]
-    public void Install_All_CommServer_Licenses()
+    public void Test_All_CommServer_Licenses()
     {
       //
       // TODO: Add test logic	here
       //
+      PerformTestOnProduct( "CommServer" );
+    }
+    [TestMethod]
+    public void Test_All_DataPorter_Licenses()
+    {
+      //
+      // TODO: Add test logic	here
+      //
+      PerformTestOnProduct( "DataPorter" );
+    }
 
 
-      using ( StreamReader sr2 = new StreamReader( Assembly.GetExecutingAssembly().GetManifestResourceStream( "LicenseContainer.UT.CommServer.csv" ) ) )
+    private void PerformTestOnProduct( string productName )
+    {
+      using ( StreamReader sr2 = new StreamReader( Assembly.GetExecutingAssembly().GetManifestResourceStream( string.Format( csv_file_templateformat, productName ) ) ) )
       {
         string line;
         int linenumber = 0;
@@ -125,7 +138,7 @@ namespace LicenseContainer.UT
           {
             try
             {
-              CAS.Lib.CodeProtect.LibInstaller.InstalLicense( "TestUser", "CAS", "techsupp@cas.eu", true, "CommServer", elements[ 1 ] );
+              CAS.Lib.CodeProtect.LibInstaller.InstalLicense( "TestUser", "CAS", "techsupp@cas.eu", true, productName, elements[ 1 ] );
             }
             catch ( Exception ex )
             {
@@ -135,10 +148,10 @@ namespace LicenseContainer.UT
             {
               int expected = int.Parse( elements[ giatd.Index ] );
               bool succeded_actual = true;
-              IIsLicensed o=null;
+              IIsLicensed o = null;
               try
               {
-                o = (IIsLicensed) giatd.CompiledAssembly.CreateInstance( "LicenseContainer.UT.LicenseTester" );
+                o = (IIsLicensed)giatd.CompiledAssembly.CreateInstance( "LicenseContainer.UT.LicenseTester" );
               }
               catch
               {
@@ -154,7 +167,6 @@ namespace LicenseContainer.UT
           linenumber++;
         } while ( true );
       }
-      CAS.Lib.CodeProtect.LibInstaller.InstalLicense( "TestUser", "CAS", "techsupp@cas.eu", true, "CommServer", "DefaultDemo" );
     }
   }
 }
