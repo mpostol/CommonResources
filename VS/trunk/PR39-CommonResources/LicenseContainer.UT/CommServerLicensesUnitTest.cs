@@ -1,12 +1,25 @@
-﻿using System;
-using System.Text;
-using System.Collections.Generic;
+﻿//<summary>
+//  Title   : Test of licenses in the container
+//  System  : Microsoft Visual C# .NET 2008
+//  $LastChangedDate:$
+//  $Rev:$
+//  $LastChangedBy:$
+//  $URL:$
+//  $Id:$
+//
+//  Copyright (C)2011, CAS LODZ POLAND.
+//  TEL: +48 (42) 686 25 47
+//  mailto://techsupp@cas.eu
+//  http://www.cas.eu
+//</summary>
 
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Reflection;
-using CAS.Lib.RTLib.Utils;
-using System.Diagnostics;
+using CAS.Lib.CodeProtect;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace LicenseContainer.UT
 {
@@ -122,17 +135,20 @@ namespace LicenseContainer.UT
             {
               int expected = int.Parse( elements[ giatd.Index ] );
               bool succeded_actual = true;
+              IIsLicensed o=null;
               try
               {
-                object o = giatd.CompiledAssembly.CreateInstance( "LicenseContainer.UT.LicenseTester" );
+                o = (IIsLicensed) giatd.CompiledAssembly.CreateInstance( "LicenseContainer.UT.LicenseTester" );
               }
               catch
               {
                 succeded_actual = false;
               }
+              if ( succeded_actual && o != null )
+                succeded_actual = o.Licensed;
               string productAndFunctionInfo = string.Format( "Product: {0}, Function: {1}", elements[ 0 ], header0[ giatd.Index ] );
               Assert.AreEqual( expected > 0, succeded_actual, string.Format( "license test has failed! {0}", productAndFunctionInfo ) );
-              Console.WriteLine( string.Format( "Passed: {0}", productAndFunctionInfo ) );
+              Debug.WriteLine( string.Format( "Passed: {0}", productAndFunctionInfo ) );
             }
           }
           linenumber++;

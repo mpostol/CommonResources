@@ -1,8 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Runtime.InteropServices;
+﻿//<summary>
+//  Title   : License Tester - this file is compiled in runtime
+//  System  : Microsoft Visual C# .NET 2008
+//  $LastChangedDate:$
+//  $Rev:$
+//  $LastChangedBy:$
+//  $URL:$
+//  $Id:$
+//
+//  Copyright (C)2011, CAS LODZ POLAND.
+//  TEL: +48 (42) 686 25 47
+//  mailto://techsupp@cas.eu
+//  http://www.cas.eu
+//</summary>
+
+using System;
 using System.ComponentModel;
+using System.Diagnostics;
 using CAS.Lib.CodeProtect;
 using CAS.Lib.CodeProtect.LicenseDsc;
 
@@ -26,17 +39,23 @@ namespace LicenseContainer.UT
       base.TraceCurrentLicence( license );
       string msg = string.Format
         ( "Obtained valid license for {0}, runtime={1}, volume={2}", typeof( LicenseTester ), license.RunTimeConstrain, license.VolumeConstrain );
-      Console.WriteLine( msg);
+      Debug.WriteLine( msg );
     }
     protected override void TraceFailureReason( string reason )
     {
       base.TraceFailureReason( reason );
-      //throw new LicenseException( this.GetType(), this, reason );
+      Debug.WriteLine( reason );
     }
     protected override void TraceNoLicenseFile( string reason )
     {
       base.TraceNoLicenseFile( reason );
-      //throw new LicenseException( this.GetType(), this, "No license file found, because: " + reason );
+      Debug.WriteLine( reason );
+    }
+    public readonly string MyGuid = "//%%GuidInfo";
+    public readonly string MyFunction = "//%%MyFunction";
+    public override string ToString()
+    {
+      return string.Format( "{0} {1} {2}", MyFunction, MyGuid, base.ToString() );
     }
     public LicenseTester()
       : base( int.MaxValue, TimeSpan.MaxValue ) { }
