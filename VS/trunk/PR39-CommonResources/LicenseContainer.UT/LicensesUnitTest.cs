@@ -19,6 +19,8 @@ using System.Diagnostics;
 using System.IO;
 using System.Reflection;
 using CAS.Lib.CodeProtect;
+using CAS.Lib.CodeProtect.EnvironmentAccess;
+using CAS.Lib.CodeProtect.LicenseDsc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace LicenseContainer.UT
@@ -138,6 +140,13 @@ namespace LicenseContainer.UT
     {
       try
       {
+        LicenseFile.Uninstal();
+        FileNames.DeleteKeys();
+        ManifestManagement.DeleteDeployManifest();
+      }
+      catch{}
+      try
+      {
         CAS.Lib.CodeProtect.LibInstaller.InstalLicense( "TestUser", "CAS", "techsupp@cas.eu", true, productName, elements[ 1 ] );
       }
       catch ( Exception ex )
@@ -146,7 +155,8 @@ namespace LicenseContainer.UT
       }
       foreach ( GuidInstanceAndTestDefinition giatd in tests )
       {
-        int expected = int.Parse( elements[ giatd.Index ] );
+        #region foreach test
+        bool expected = int.Parse( elements[ giatd.Index ] ) > 0;
         bool succeded_actual = true;
         IIsLicensed o = null;
         try
@@ -160,7 +170,7 @@ namespace LicenseContainer.UT
         if ( succeded_actual && o != null )
           succeded_actual = o.Licensed;
         string productAndFunctionInfo = string.Format( "Product: {0}, Function: {1}", elements[ 0 ], header0[ giatd.Index ] );
-        Assert.AreEqual( expected > 0, succeded_actual, string.Format( "license test has failed! {0}", productAndFunctionInfo ) );
+        Assert.AreEqual( expected, succeded_actual, string.Format( "license test has failed! {0}", productAndFunctionInfo ) );
         foreach ( KeyValuePair<int, string> kvp in giatd.TestDictionary )
         {
           int? expectedValue = int.Parse( elements[ kvp.Key ] );
@@ -177,12 +187,15 @@ namespace LicenseContainer.UT
               break;
           }
           Assert.AreEqual( expectedValue, actualValue, string.Format( "license test has failed! {0}, Property: {1}", productAndFunctionInfo, kvp.Value ) );
-
         }
 
 
         Debug.WriteLine( string.Format( "Passed: {0}", productAndFunctionInfo ) );
+        #endregion foreach test
       }
+      LicenseFile.Uninstal();
+      FileNames.DeleteKeys();
+      ManifestManagement.DeleteDeployManifest();
     }
 
     private static void PrepareTestDefinitions( string[] header0, string[] header1, List<GuidInstanceAndTestDefinition> tests )
