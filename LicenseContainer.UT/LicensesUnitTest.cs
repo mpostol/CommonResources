@@ -89,6 +89,19 @@ namespace LicenseContainer.UT
       PerformTestOnProduct( "DataPorter" );
     }
 
+
+    [TestMethod]
+    public void Test_All_CommServerUA_Licenses()
+    {
+      PerformTestOnProduct( "CommServerUA" );
+    }
+
+    [TestMethod]
+    public void Test_All_UAModelDesigner_Licenses()
+    {
+      PerformTestOnProduct( "UA.ModelDesigner" );
+    }
+
     private void PerformTestOnProduct( string productName )
     {
       using ( StreamReader sr2 = new StreamReader( Assembly.GetExecutingAssembly().GetManifestResourceStream( string.Format( csv_file_templateformat, productName ) ) ) )
@@ -148,6 +161,26 @@ namespace LicenseContainer.UT
           succeded_actual = o.Licensed;
         string productAndFunctionInfo = string.Format( "Product: {0}, Function: {1}", elements[ 0 ], header0[ giatd.Index ] );
         Assert.AreEqual( expected > 0, succeded_actual, string.Format( "license test has failed! {0}", productAndFunctionInfo ) );
+        foreach ( KeyValuePair<int, string> kvp in giatd.TestDictionary )
+        {
+          int? expectedValue = int.Parse( elements[ kvp.Key ] );
+          int? actualValue = 0;
+          switch ( kvp.Value )
+          {
+            case "Volume":
+              if ( o.Licensed )
+                actualValue = o.Volumen;
+              break;
+            case "Runtime":
+              break;
+            default:
+              break;
+          }
+          Assert.AreEqual( expectedValue, actualValue, string.Format( "license test has failed! {0}, Property: {1}", productAndFunctionInfo, kvp.Value ) );
+
+        }
+
+
         Debug.WriteLine( string.Format( "Passed: {0}", productAndFunctionInfo ) );
       }
     }

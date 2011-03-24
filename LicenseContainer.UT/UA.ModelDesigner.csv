@@ -1,0 +1,6 @@
+#Symbol;Code;OPCViewer;DataPorter transaction ;Browse View ;3D View ;Import ;Export ;UA Server ;Custom Editors ;Build Solution ;Maintenance Constraint;Save Function Constraint
+#Symbol;Code;bfddbfb8-332e-473b-9fda-3621699bd28b;146afc90-4872-418d-b97a-d691dcf7cf5b;d3028d63-52a1-4a66-9946-b8048c459ac7;98925bc5-f27f-4114-bf1e-385ba2aec9b7;0d675c59-39b8-4522-9fa6-074af8a3ea9d;6d0a7a45-9adc-456e-a1ea-c0f926e3c96c;9f0b0964-93b8-4775-9106-95c0dcbfead5;3713dde1-b759-4b5c-bbd0-5b1e8422fa61;4df37528-e9cb-4fb7-ae1a-5ad9639ec04e;64fbd005-2d72-476b-8523-e298d5fc2e79;2601698a-593a-40f0-afcc-4c205a67a3c3
+demo ;DefaultDemo;1;0;1;1;1;1;1;1;1;1;1
+ASMD-SE;c06ec016;1;0;0;0;0;0;0;0;0;1;1
+ASMD-PE;ec0a9fe2;1;0;1;1;1;1;1;1;1;1;1
+ASMD-SE-NC;Std_NC;1;0;0;0;0;0;0;0;0;1;1
