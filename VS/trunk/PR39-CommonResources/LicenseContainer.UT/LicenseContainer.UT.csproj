@@ -71,6 +71,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="cas.snk" />
+    <EmbeddedResource Include="CommServerUA.csv" />
+    <EmbeddedResource Include="UA.ModelDesigner.csv" />
     <EmbeddedResource Include="DataPorter.csv" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
