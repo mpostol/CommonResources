@@ -144,7 +144,7 @@ namespace LicenseContainer.UT
         FileNames.DeleteKeys();
         ManifestManagement.DeleteDeployManifest();
       }
-      catch{}
+      catch { }
       try
       {
         CAS.Lib.CodeProtect.LibInstaller.InstalLicense( "TestUser", "CAS", "techsupp@cas.eu", true, productName, elements[ 1 ] );
@@ -156,7 +156,17 @@ namespace LicenseContainer.UT
       foreach ( GuidInstanceAndTestDefinition giatd in tests )
       {
         #region foreach test
-        bool expected = int.Parse( elements[ giatd.Index ] ) > 0;
+        string productAndFunctionInfo = string.Format( "Product: {0}, Function: {1}", elements[ 0 ], header0[ giatd.Index ] );
+        bool? expected = null;
+        try
+        {
+          expected = int.Parse( elements[ giatd.Index ] ) > 0;
+        }
+        catch ( Exception ex )
+        {
+          Assert.Fail( String.Format( "Cannot parse value='{0}' (from CSV) to valid integer (reason: {1})(product: {2})", 
+            elements[ giatd.Index ], ex.Message, productAndFunctionInfo ) );
+        }
         bool succeded_actual = true;
         IIsLicensed o = null;
         try
@@ -169,11 +179,18 @@ namespace LicenseContainer.UT
         }
         if ( succeded_actual && o != null )
           succeded_actual = o.Licensed;
-        string productAndFunctionInfo = string.Format( "Product: {0}, Function: {1}", elements[ 0 ], header0[ giatd.Index ] );
         Assert.AreEqual( expected, succeded_actual, string.Format( "license test has failed! {0}", productAndFunctionInfo ) );
         foreach ( KeyValuePair<int, string> kvp in giatd.TestDictionary )
         {
-          int? expectedValue = int.Parse( elements[ kvp.Key ] );
+          int? expectedValue = null;
+          try
+          {
+            expectedValue = int.Parse( elements[ kvp.Key ] );
+          }
+          catch ( Exception ex )
+          {
+            Assert.Fail( String.Format( "Cannot parse value='{0}' (from CSV) to valid integer (reason: {1})", elements[ kvp.Key ], ex.Message ) );
+          }
           int? actualValue = 0;
           switch ( kvp.Value )
           {
