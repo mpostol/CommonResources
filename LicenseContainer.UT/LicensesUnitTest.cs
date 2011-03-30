@@ -140,79 +140,89 @@ namespace LicenseContainer.UT
     {
       try
       {
+        try
+        {
+          LicenseFile.Uninstal();
+          FileNames.DeleteKeys();
+          ManifestManagement.DeleteDeployManifest();
+        }
+        catch { }
+        try
+        {
+          CAS.Lib.CodeProtect.LibInstaller.InstalLicense( "TestUser", "CAS", "techsupp@cas.eu", true, productName, elements[ 1 ] );
+        }
+        catch ( Exception ex )
+        {
+          Assert.Fail( string.Format( "Cannot install license {0} {1} (reason: {2})", elements[ 0 ], elements[ 1 ], ex.Message ) );
+        }
+        foreach ( GuidInstanceAndTestDefinition giatd in tests )
+        {
+          #region foreach test
+          string productAndFunctionInfo = string.Format( "Product: {0}, Function: {1}", elements[ 0 ], header0[ giatd.Index ] );
+          bool? expected = null;
+          try
+          {
+            expected = int.Parse( elements[ giatd.Index ] ) > 0;
+          }
+          catch ( Exception ex )
+          {
+            Assert.Fail( String.Format( "Cannot parse value='{0}' (from CSV) to valid integer (reason: {1})(product: {2})",
+              elements[ giatd.Index ], ex.Message, productAndFunctionInfo ) );
+          }
+          bool succeded_actual = true;
+          IIsLicensed o = null;
+          try
+          {
+            o = (IIsLicensed)giatd.CompiledAssembly.CreateInstance( "LicenseContainer.UT.LicenseTester" );
+          }
+          catch
+          {
+            succeded_actual = false;
+          }
+          if ( succeded_actual && o != null )
+            succeded_actual = o.Licensed;
+          Assert.AreEqual( expected, succeded_actual, string.Format( "license test has failed! {0}", productAndFunctionInfo ) );
+          foreach ( KeyValuePair<int, string> kvp in giatd.TestDictionary )
+          {
+            int? expectedValue = null;
+            try
+            {
+              expectedValue = int.Parse( elements[ kvp.Key ] );
+            }
+            catch ( Exception ex )
+            {
+              Assert.Fail( String.Format( "Cannot parse value='{0}' (from CSV) to valid integer (reason: {1})", elements[ kvp.Key ], ex.Message ) );
+            }
+            int? actualValue = 0;
+            switch ( kvp.Value )
+            {
+              case "Volume":
+                if ( o.Licensed )
+                  actualValue = o.Volumen;
+                break;
+              case "Runtime":
+                if ( o.RunTime.Value.Equals( TimeSpan.MaxValue ) )
+                  actualValue = -1;
+                else
+                  actualValue = o.RunTime.Value.Hours;
+                break;
+              default:
+                break;
+            }
+            Assert.AreEqual( expectedValue, actualValue, string.Format( "license test has failed! {0}, Property: {1}", productAndFunctionInfo, kvp.Value ) );
+          }
+
+
+          Debug.WriteLine( string.Format( "Passed: {0}", productAndFunctionInfo ) );
+          #endregion foreach test
+        }
+      }
+      finally
+      {
         LicenseFile.Uninstal();
         FileNames.DeleteKeys();
         ManifestManagement.DeleteDeployManifest();
       }
-      catch { }
-      try
-      {
-        CAS.Lib.CodeProtect.LibInstaller.InstalLicense( "TestUser", "CAS", "techsupp@cas.eu", true, productName, elements[ 1 ] );
-      }
-      catch ( Exception ex )
-      {
-        Assert.Fail( string.Format( "Cannot install license {0} {1} (reason: {2})", elements[ 0 ], elements[ 1 ], ex.Message ) );
-      }
-      foreach ( GuidInstanceAndTestDefinition giatd in tests )
-      {
-        #region foreach test
-        string productAndFunctionInfo = string.Format( "Product: {0}, Function: {1}", elements[ 0 ], header0[ giatd.Index ] );
-        bool? expected = null;
-        try
-        {
-          expected = int.Parse( elements[ giatd.Index ] ) > 0;
-        }
-        catch ( Exception ex )
-        {
-          Assert.Fail( String.Format( "Cannot parse value='{0}' (from CSV) to valid integer (reason: {1})(product: {2})", 
-            elements[ giatd.Index ], ex.Message, productAndFunctionInfo ) );
-        }
-        bool succeded_actual = true;
-        IIsLicensed o = null;
-        try
-        {
-          o = (IIsLicensed)giatd.CompiledAssembly.CreateInstance( "LicenseContainer.UT.LicenseTester" );
-        }
-        catch
-        {
-          succeded_actual = false;
-        }
-        if ( succeded_actual && o != null )
-          succeded_actual = o.Licensed;
-        Assert.AreEqual( expected, succeded_actual, string.Format( "license test has failed! {0}", productAndFunctionInfo ) );
-        foreach ( KeyValuePair<int, string> kvp in giatd.TestDictionary )
-        {
-          int? expectedValue = null;
-          try
-          {
-            expectedValue = int.Parse( elements[ kvp.Key ] );
-          }
-          catch ( Exception ex )
-          {
-            Assert.Fail( String.Format( "Cannot parse value='{0}' (from CSV) to valid integer (reason: {1})", elements[ kvp.Key ], ex.Message ) );
-          }
-          int? actualValue = 0;
-          switch ( kvp.Value )
-          {
-            case "Volume":
-              if ( o.Licensed )
-                actualValue = o.Volumen;
-              break;
-            case "Runtime":
-              break;
-            default:
-              break;
-          }
-          Assert.AreEqual( expectedValue, actualValue, string.Format( "license test has failed! {0}, Property: {1}", productAndFunctionInfo, kvp.Value ) );
-        }
-
-
-        Debug.WriteLine( string.Format( "Passed: {0}", productAndFunctionInfo ) );
-        #endregion foreach test
-      }
-      LicenseFile.Uninstal();
-      FileNames.DeleteKeys();
-      ManifestManagement.DeleteDeployManifest();
     }
 
     private static void PrepareTestDefinitions( string[] header0, string[] header1, List<GuidInstanceAndTestDefinition> tests )
