@@ -1,11 +1,11 @@
 ﻿//<summary>
 //  Title   : GuidInstanceAndTestDefinition
 //  System  : Microsoft Visual C# .NET 2008
-//  $LastChangedDate:$
-//  $Rev:$
-//  $LastChangedBy:$
-//  $URL:$
-//  $Id:$
+//  $LastChangedDate$
+//  $Rev$
+//  $LastChangedBy$
+//  $URL$
+//  $Id$
 //
 //  Copyright (C)2011, CAS LODZ POLAND.
 //  TEL: +48 (42) 686 25 47
