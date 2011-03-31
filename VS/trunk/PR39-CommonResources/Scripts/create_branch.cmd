@@ -9,10 +9,10 @@ set branchtype=%2
 if "%branchtype%"=="" goto setbranch
 
 :dothejob
-svn mkdir svn://svnserver.hq.cas.com.pl/VS/%branchtype%/PR37-CAS_LIB_PCKG/%1  -m "created new %branchtype%  %1 (%branchtype% folder)"
-svn copy svn://svnserver.hq.cas.com.pl/VS/trunk/ImageLibrary svn://svnserver.hq.cas.com.pl/VS/%branchtype%/PR37-CAS_LIB_PCKG/%1/ImageLibrary -m "created new %branchtype% %1 (project ImageLibrary)"
-svn copy svn://svnserver.hq.cas.com.pl/VS/trunk/CommonBinaries svn://svnserver.hq.cas.com.pl/VS/%branchtype%/PR37-CAS_LIB_PCKG/%1/CommonBinaries -m "created new %branchtype% %1 (project CommonBinaries)"
-svn copy svn://svnserver.hq.cas.com.pl/VS/trunk/PR37-CAS_LIB_PCKG svn://svnserver.hq.cas.com.pl/VS/%branchtype%/PR37-CAS_LIB_PCKG/%1/PR37-CAS_LIB_PCKG -m "created new %branchtype% %1 (project PR37-CAS_LIB_PCKG)"
+svn mkdir svn://svnserver.hq.cas.com.pl/VS/%branchtype%/PR39-CommonResources/%1  -m "created new %branchtype%  %1 (%branchtype% folder)"
+svn copy svn://svnserver.hq.cas.com.pl/VS/trunk/ImageLibrary svn://svnserver.hq.cas.com.pl/VS/%branchtype%/PR39-CommonResources/%1/ImageLibrary -m "created new %branchtype% %1 (project ImageLibrary)"
+svn copy svn://svnserver.hq.cas.com.pl/VS/trunk/CommonBinaries svn://svnserver.hq.cas.com.pl/VS/%branchtype%/PR39-CommonResources/%1/CommonBinaries -m "created new %branchtype% %1 (project CommonBinaries)"
+svn copy svn://svnserver.hq.cas.com.pl/VS/trunk/PR39-CommonResources svn://svnserver.hq.cas.com.pl/VS/%branchtype%/PR39-CommonResources/%1/PR39-CommonResources -m "created new %branchtype% %1 (project PR39-CommonResources)"
 
 goto EXIT
 

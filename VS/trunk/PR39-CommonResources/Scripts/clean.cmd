@@ -34,39 +34,31 @@ echo "$URL$"
 cd ..\..\
 
 if "%1"=="local" goto LOCAL
-del /Q  .\CommonBinaries\PR37-CAS_LIB_PCKG\*.*
+del /Q  .\CommonBinaries\PR39-CommonResources\*.*
 :LOCAL
 
 
-RD /S /Q .\PR37-CAS_LIB_PCKG\bin 
-RD /S /Q .\PR37-CAS_LIB_PCKG\Deliverables 
-RD /S /Q .\PR37-CAS_LIB_PCKG\TestResults
-RD /S /Q ".\PR37-CAS_LIB_PCKG\ControlLibrary\bin"
-RD /S /Q ".\PR37-CAS_LIB_PCKG\ControlLibrary\obj"
-RD /S /Q ".\PR37-CAS_LIB_PCKG\ControlLibrary.UT\bin"
-RD /S /Q ".\PR37-CAS_LIB_PCKG\ControlLibrary.UT\obj"
-RD /S /Q ".\PR37-CAS_LIB_PCKG\DeviceSymulator\bin"
-RD /S /Q ".\PR37-CAS_LIB_PCKG\DeviceSymulator\obj"
-RD /S /Q ".\PR37-CAS_LIB_PCKG\PR37-CAS_LIB_PCKG\bin"
-RD /S /Q ".\PR37-CAS_LIB_PCKG\PR37-CAS_LIB_PCKG\obj"
-RD /S /Q ".\PR37-CAS_LIB_PCKG\RTLib\bin"
-RD /S /Q ".\PR37-CAS_LIB_PCKG\RTLib\obj"
-RD /S /Q ".\PR37-CAS_LIB_PCKG\RTlib.UT\bin"
-RD /S /Q ".\PR37-CAS_LIB_PCKG\RTlib.UT\obj"
-RD /S /Q .\PR37-CAS_LIB_PCKG\Scripts\bin 
-RD /S /Q .\PR37-CAS_LIB_PCKG\Scripts\obj 
+RD /S /Q .\PR39-CommonResources\bin 
+RD /S /Q .\PR39-CommonResources\Deliverables 
+RD /S /Q .\PR39-CommonResources\TestResults
+RD /S /Q ".\PR39-CommonResources\LicenseContainer.UT\bin"
+RD /S /Q ".\PR39-CommonResources\LicenseContainer.UT\obj"
+RD /S /Q ".\PR39-CommonResources\LicensesContainer\bin"
+RD /S /Q ".\PR39-CommonResources\LicensesContainer\obj"
+RD /S /Q .\PR39-CommonResources\Scripts\bin 
+RD /S /Q .\PR39-CommonResources\Scripts\obj 
 rem deleting project user files
-del /F /S /Q /A:H .\PR37-CAS_LIB_PCKG\*.suo
-del /F /S /Q /A:H .\PR37-CAS_LIB_PCKG\*.user
-del /F /S /Q  .\PR37-CAS_LIB_PCKG\*.cache
+del /F /S /Q /A:H .\PR39-CommonResources\*.suo
+del /F /S /Q /A:H .\PR39-CommonResources\*.user
+del /F /S /Q  .\PR39-CommonResources\*.cache
 rem deleting objects
-del /F /S /Q  .\PR37-CAS_LIB_PCKG\*.obj
+del /F /S /Q  .\PR39-CommonResources\*.obj
 rem deleting intellisence
-del /F /S /Q  .\PR37-CAS_LIB_PCKG\*.ncb
+del /F /S /Q  .\PR39-CommonResources\*.ncb
 rem deleting debuger informations
-del /F /S /Q  .\PR37-CAS_LIB_PCKG\*.pdb
+del /F /S /Q  .\PR39-CommonResources\*.pdb
 rem deletind desktop.ini
-del /F /S /Q /A:H .\PR37-CAS_LIB_PCKG\*.ini
+del /F /S /Q /A:H .\PR39-CommonResources\*.ini
 
 rem returning to base directory
-cd .\PR37-CAS_LIB_PCKG\Scripts
+cd .\PR39-CommonResources\Scripts

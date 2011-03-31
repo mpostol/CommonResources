@@ -11,6 +11,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		PR39-CommonResources.vsmdi = PR39-CommonResources.vsmdi
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{3A59C9CC-674F-4944-95C3-36EAED6890E8}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\build.cmd = Scripts\build.cmd
+		Scripts\clean.cmd = Scripts\clean.cmd
+		Scripts\create_branch.cmd = Scripts\create_branch.cmd
+		Scripts\create_tag.cmd = Scripts\create_tag.cmd
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = PR39-CommonResources.vsmdi

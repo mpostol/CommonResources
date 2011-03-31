@@ -9,7 +9,7 @@ set buildtype=%1
 if "%buildtype%"=="" goto setbuildtype
 
 :dothejob
-"%Windir%\Microsoft.NET\Framework\v3.5\msbuild"  ..\PR37-CAS_LIB_PCKG.sln /t:build /p:Configuration=%buildtype%
+"%Windir%\Microsoft.NET\Framework\v3.5\msbuild"  ..\PR39-CommonResources.sln /t:build /p:Configuration=%buildtype%
 goto exit
 
 :setbuildtype
