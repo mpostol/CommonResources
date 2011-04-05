@@ -129,9 +129,9 @@
     <EmbeddedResource Include="CommServerUA\CAS.License.CommServerUA.OPCUA_XLS_200.__ne029fac__.lic" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="CommServerUA\CAS.License.CommServerUA.CSUAW-10K.__o7fj332s__.lic" />
-    <EmbeddedResource Include="CommServerUA\CAS.License.CommServerUA.CSUAW-1K.__v7dj994s__.lic" />
-    <EmbeddedResource Include="CommServerUA\CAS.License.CommServerUA.CSUAW-4K.__kf19d89c__.lic" />
+    <EmbeddedResource Include="CommServerUA\CAS.License.CommServerUA.CSUAW-1K.__kf19d89c__.lic" />
+    <EmbeddedResource Include="CommServerUA\CAS.License.CommServerUA.CSUAW-300.__v7dj994s__.lic" />
+    <EmbeddedResource Include="CommServerUA\CAS.License.CommServerUA.CSUAW-4K.__o7fj332s__.lic" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
