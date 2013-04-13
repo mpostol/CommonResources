@@ -1,0 +1,12 @@
+<#+
+string IPRAssemblyVersion = "3.80.00.*";
+string IPRAssemblyFileVersion = "3.80.00";
+
+string DPDiagnosticAssemblyVersion = "2.00.00.*";
+string DPDiagnosticAssemblyFileVersion = "2.00.00";
+
+string AssemblyTrademark = "CommServer";
+string AssemblyCopyright = "Copyright (c) 2000-2013 CAS LODZ POLAND";
+string AssemblyProduct = "CommServer Family";
+string AssemblyCompany = "CAS";
+#>
