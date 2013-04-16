@@ -1,6 +1,6 @@
 <#+
-string IPRAssemblyVersion = "3.80.00.*";
-string IPRAssemblyFileVersion = "3.80.00";
+string DPPAssemblyVersion = "3.80.00.*";
+string DPPAssemblyFileVersion = "3.80.00";
 
 string DPDiagnosticAssemblyVersion = "2.00.00.*";
 string DPDiagnosticAssemblyFileVersion = "2.00.00";
