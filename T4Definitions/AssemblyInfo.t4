@@ -1,12 +1,39 @@
 <#+
+
+//Smart Factory (SF) - PR42-SmartFactory
+string SFAssemblyProduct = "Smart Factory";
+string SFAssemblyTrademark = "Smart Factory";
+
+//Smart Factory IPR (IPR) 
+string IPRAssemblyVersion = "1.61.00.*";
+string IPRAssemblyFileVersion = "1.61.00";
+
+// Customs Warehousing (CW)
+string CWAssemblyVersion = "1.80.00.*";
+string CWSHRAssemblyFileVersion = "1.80.00";
+
+// Shepherd (SHR)
+string SHRAssemblyVersion = "1.70.10.*";
+string SHRAssemblyFileVersion = "1.70.10";
+
+//CommServer
+string AssemblyProduct = "CommServer Family";
+
+//DataProviderPackage
 string DPPAssemblyVersion = "3.80.00.*";
 string DPPAssemblyFileVersion = "3.80.00";
 
+//DataProviderDiagnostic
 string DPDiagnosticAssemblyVersion = "2.00.00.*";
 string DPDiagnosticAssemblyFileVersion = "2.00.00";
 
+//CommServer Classic
+
+//CommServer UA
+
+//Common
 string AssemblyTrademark = "CommServer";
 string AssemblyCopyright = "Copyright (c) 2000-2013 CAS LODZ POLAND";
-string AssemblyProduct = "CommServer Family";
 string AssemblyCompany = "CAS";
+
 #>
