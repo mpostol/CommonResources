@@ -4,26 +4,26 @@
 string SFAssemblyProduct = "Smart Factory";
 string SFAssemblyTrademark = "Smart Factory";
 
-//Smart Factory IPR (IPR) 
+//Smart Factory Inward Processing Relief (IPR) 
 string IPRAssemblyVersion = "1.61.00.*";
 string IPRAssemblyFileVersion = "1.61.00";
 
-// Customs Warehousing (CW)
+// Smart Factory Customs Warehousing (CW)
 string CWAssemblyVersion = "1.80.00.*";
 string CWSHRAssemblyFileVersion = "1.80.00";
 
-// Shepherd (SHR)
+// Smart Factory Shepherd (SHR)
 string SHRAssemblyVersion = "1.70.10.*";
 string SHRAssemblyFileVersion = "1.70.10";
 
 //CommServer
 string AssemblyProduct = "CommServer Family";
 
-//DataProviderPackage
+//CommServer DataProviderPackage
 string DPPAssemblyVersion = "3.80.00.*";
 string DPPAssemblyFileVersion = "3.80.00";
 
-//DataProviderDiagnostic
+//CommServer DataProviderDiagnostic
 string DPDiagnosticAssemblyVersion = "2.00.00.*";
 string DPDiagnosticAssemblyFileVersion = "2.00.00";
 
