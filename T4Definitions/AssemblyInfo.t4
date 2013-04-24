@@ -17,7 +17,7 @@ string SHRAssemblyVersion = "1.70.10.*";
 string SHRAssemblyFileVersion = "1.70.10";
 
 //CommServer
-string AssemblyProduct = "CommServer Family";
+string AssemblyProduct = "CAS CommServer Family";
 
 //CommServer DataProviderPackage
 string DPPAssemblyVersion = "3.80.00.*";
@@ -30,6 +30,11 @@ string DPDiagnosticAssemblyFileVersion = "2.00.00";
 //CommServer Classic
 
 //CommServer UA
+
+//CommServer UA Server
+string CSUAAssemblyProduct = "CAS CommServerUA Family";
+string CSUAAssemblyVersion = "1.00.40.*";
+string CSUAAssemblyFileVersion = "1.00.40";
 
 //Common
 string AssemblyTrademark = "CommServer";
