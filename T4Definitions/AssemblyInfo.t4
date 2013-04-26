@@ -33,12 +33,15 @@ string DPDiagnosticAssemblyFileVersion = "2.00.00";
 
 //CommServer UA Server
 string CSUAAssemblyProduct = "CAS CommServerUA Family";
-string CSUAAssemblyVersion = "1.00.40.*";
-string CSUAAssemblyFileVersion = "1.00.40";
+string CSUAAssemblyVersion = "1.00.33.*";
+string CSUAAssemblyFileVersion = "1.00.33";
 
 //Common
 string AssemblyTrademark = "CommServer";
 string AssemblyCopyright = "Copyright (c) 2000-2013 CAS LODZ POLAND";
 string AssemblyCompany = "CAS";
+string Url = "www.cas.eu";
+string Email = "techsupp@cas.eu";
+string Phone = "+48 (42) 686 25 47";
 
 #>
