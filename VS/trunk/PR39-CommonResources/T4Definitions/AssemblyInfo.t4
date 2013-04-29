@@ -4,6 +4,8 @@
 string SFAssemblyProduct = "Smart Factory";
 string SFAssemblyTrademark = "Smart Factory";
 
+string SFTagVersion = "1.61.00";
+
 //Smart Factory Inward Processing Relief (IPR) 
 string IPRAssemblyVersion = "1.61.00.*";
 string IPRAssemblyFileVersion = "1.61.00";
