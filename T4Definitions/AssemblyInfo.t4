@@ -22,12 +22,12 @@ string SHRAssemblyFileVersion = "1.70.10";
 string AssemblyProduct = "CAS CommServer Family";
 
 //CommServer DataProviderPackage
-string DPPAssemblyVersion = "3.80.00.*";
-string DPPAssemblyFileVersion = "3.80.00";
+string DPPAssemblyVersion = "3.80.01.*";
+string DPPAssemblyFileVersion = "3.80.01";
 
 //CommServer DataProviderDiagnostic
-string DPDiagnosticAssemblyVersion = "2.00.00.*";
-string DPDiagnosticAssemblyFileVersion = "2.00.00";
+string DPDiagnosticAssemblyVersion = "2.00.01.*";
+string DPDiagnosticAssemblyFileVersion = "2.00.01";
 
 //CommServer Classic
 
