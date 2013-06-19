@@ -1,16 +1,22 @@
 <#+
 
-//Smart Factory (SF) - PR42-SmartFactory
+//Smart Factory (SF)
 string SFAssemblyProduct = "Smart Factory";
 string SFAssemblyTrademark = "Smart Factory";
 
-string SFTagVersion = "1.61.00";
+//PR44-SharePoint
+string SFSharePointSetupAssemblyVersion = "1.61.10.*";
+string SFSharePointSetupAssemblyFileVersion = "1.61.10";
+
+//PR42-SmartFactory
+
+string SFTagVersion = "1.70.10";
 
 //Smart Factory Inward Processing Relief (IPR) 
 string IPRAssemblyVersion = "1.61.00.*";
 string IPRAssemblyFileVersion = "1.61.00";
 
-// Smart Factory Customs Warehousing (CW)
+//Smart Factory Customs Warehousing (CW)
 string CWAssemblyVersion = "1.80.00.*";
 string CWSHRAssemblyFileVersion = "1.80.00";
 
@@ -20,6 +26,7 @@ string SHRAssemblyFileVersion = "1.70.10";
 
 //CommServer
 string AssemblyProduct = "CAS CommServer Family";
+string AssemblyTrademark = "CommServer";
 
 //CommServer DataProviderPackage
 string DPPAssemblyVersion = "3.80.01.*";
@@ -39,7 +46,6 @@ string CSUAAssemblyVersion = "1.00.33.*";
 string CSUAAssemblyFileVersion = "1.00.33";
 
 //Common
-string AssemblyTrademark = "CommServer";
 string AssemblyCopyright = "Copyright (c) 2000-2013 CAS LODZ POLAND";
 string AssemblyCompany = "CAS";
 string Url = "www.cas.eu";
