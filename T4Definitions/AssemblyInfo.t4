@@ -10,7 +10,7 @@ string SFSharePointSetupAssemblyFileVersion = "1.61.10";
 
 //PR42-SmartFactory
 
-string SFTagVersion = "1.70.10";
+string SFTagVersion = "1.70.11";
 
 //Smart Factory Inward Processing Relief (IPR) 
 string IPRAssemblyVersion = "1.61.00.*";
@@ -21,8 +21,8 @@ string CWAssemblyVersion = "1.80.00.*";
 string CWSHRAssemblyFileVersion = "1.80.00";
 
 // Smart Factory Shepherd (SHR)
-string SHRAssemblyVersion = "1.70.10.*";
-string SHRAssemblyFileVersion = "1.70.10";
+string SHRAssemblyVersion = "1.70.11.*";
+string SHRAssemblyFileVersion = "1.70.11";
 
 //CommServer
 string AssemblyProduct = "CAS CommServer Family";
