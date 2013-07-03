@@ -10,11 +10,11 @@ string SFSharePointSetupAssemblyFileVersion = "1.61.10";
 
 //PR42-SmartFactory
 
-string SFTagVersion = "1.70.11";
+string SFTagVersion = "1.80.00";
 
 //Smart Factory Inward Processing Relief (IPR) 
-string IPRAssemblyVersion = "1.61.00.*";
-string IPRAssemblyFileVersion = "1.61.00";
+string IPRAssemblyVersion = "1.80.00.*";
+string IPRAssemblyFileVersion = "1.80.00";
 
 //Smart Factory Customs Warehousing (CW)
 string CWAssemblyVersion = "1.80.00.*";
