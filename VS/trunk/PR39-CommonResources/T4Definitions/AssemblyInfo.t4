@@ -5,12 +5,14 @@ string SFAssemblyProduct = "Smart Factory";
 string SFAssemblyTrademark = "Smart Factory";
 
 //PR44-SharePoint
+string SFSharePointAssemblyVersion = "1.70.20.*";
+string SFSharePointAssemblyFileVersion = "1.70.20";
 string SFSharePointSetupAssemblyVersion = "1.61.10.*";
 string SFSharePointSetupAssemblyFileVersion = "1.61.10";
 
 //PR42-SmartFactory
 
-string SFTagVersion = "1.70.11";
+string SFTagVersion = "1.70.20";
 
 //Smart Factory Inward Processing Relief (IPR) 
 string IPRAssemblyVersion = "1.80.00.*";
