@@ -9,6 +9,8 @@ string SFSharePointAssemblyVersion = "1.70.20.*";
 string SFSharePointAssemblyFileVersion = "1.70.20";
 string SFSharePointSetupAssemblyVersion = "1.61.10.*";
 string SFSharePointSetupAssemblyFileVersion = "1.61.10";
+string SFSharePointLinqClientVersion = "1.70.12.*";
+string SFSharePointLinqClientFileVersion = "1.70.11";
 
 //PR42-SmartFactory
 
