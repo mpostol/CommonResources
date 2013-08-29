@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>CAS Header</Title>
+      <Author>CAS</Author>
+      <Description>Add CAS file header.</Description>
+      <Shortcut>cashd</Shortcut>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal Editable="true">
+          <ID>Title</ID>
+          <Default>Name of Application </Default>
+        </Literal>
+        <Literal Editable="false">
+          <ID>LastChangedDate</ID>
+          <Default>$LastChangedDate:$</Default>
+        </Literal>
+        <Literal Editable="false">
+          <ID>Rev</ID>
+          <Default>$Rev:$</Default>
+        </Literal>
+        <Literal Editable="false">
+          <ID>LastChangedBy</ID>
+          <Default>$LastChangedBy:$</Default>
+        </Literal>
+        <Literal Editable="false">
+          <ID>URL</ID>
+          <Default>$URL:$</Default>
+        </Literal>
+        <Literal Editable="false">
+          <ID>Id</ID>
+          <Default>$Id:$</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="CSharp">
+        <![CDATA[//<summary>
+//  Title   : $Title$
+//  System  : Microsoft Visual C# .NET 2012
+//  $LastChangedDate$
+//  $Rev$
+//  $LastChangedBy$
+//  $URL$
+//  $Id$
+//
+//  Copyright (C) 2013, CAS LODZ POLAND.
+//  TEL: +48 (42) 686 25 47
+//  mailto://techsupp@cas.eu
+//  http://www.cas.eu
+//</summary>
+      ]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
