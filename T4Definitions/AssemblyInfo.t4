@@ -7,18 +7,22 @@ string SFAssemblyTrademark = "Smart Factory";
 //PR44-SharePoint
 string SFSharePointAssemblyVersion = "1.70.20.*";
 string SFSharePointAssemblyFileVersion = "1.70.20";
-string SFSharePointSetupAssemblyVersion = "1.61.10.*";
-string SFSharePointSetupAssemblyFileVersion = "1.61.10";
-string SFSharePointLinqClientVersion = "1.70.12.*";
-string SFSharePointLinqClientFileVersion = "1.70.11";
+string SFSharePointSetupAssemblyVersion = "1.81.00.*";
+string SFSharePointSetupAssemblyFileVersion = "1.81.00";
+string SFSharePointLinqClientVersion = "1.81.00.*";
+string SFSharePointLinqClientFileVersion = "1.81.00";
 
 //PR42-SmartFactory
 
 string SFTagVersion = "1.70.20";
 
-//Smart Factory Inward Processing Relief (IPR) 
-string IPRAssemblyVersion = "1.80.00.*";
-string IPRAssemblyFileVersion = "1.80.00";
+//Smart Factory Inward Processing Relief (CAS.SmartFactory.IPR) 
+string IPRAssemblyVersion = "1.81.00.*";
+string IPRAssemblyFileVersion = "1.81.00";
+
+//Smart Factory Inward Processing Relief (CAS.SmartFactory.IPR.Client) 
+string IPRClientAssemblyVersion = "1.81.00.*";
+string IPClientRAssemblyFileVersion = "1.81.00";
 
 //Smart Factory Customs Warehousing (CW)
 string CWAssemblyVersion = "1.80.00.*";
