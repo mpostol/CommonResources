@@ -14,7 +14,7 @@ string SFSharePointLinqClientFileVersion = "1.81.00";
 
 //PR42-SmartFactory
 
-string SFTagVersion = "1.70.20";
+string SFTagVersion = "1.81.00";
 
 //Smart Factory Inward Processing Relief (CAS.SmartFactory.IPR) 
 string IPRAssemblyVersion = "1.81.00.*";
