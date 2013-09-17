@@ -25,8 +25,8 @@ string IPRClientAssemblyVersion = "1.81.00.*";
 string IPClientRAssemblyFileVersion = "1.81.00";
 
 //Smart Factory Customs Warehousing (CW)
-string CWAssemblyVersion = "1.80.00.*";
-string CWSHRAssemblyFileVersion = "1.80.00";
+string CWAssemblyVersion = "1.90.00.*";
+string CWSHRAssemblyFileVersion = "1.90.00";
 
 // Smart Factory Shepherd (SHR)
 string SHRAssemblyVersion = "1.70.11.*";
