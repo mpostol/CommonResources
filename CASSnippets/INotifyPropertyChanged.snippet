@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>
+        INotifyPropertyChange-Enabled Property
+      </Title>
+      <Description>
+        Declares a new property whose SET accessor raises the INotifyPropertyChanged.PropertyChanged event using a helper extension method.
+        NOTE:  The reference to the class library containing the extension method must be added and the using statement mush be included in the code file too.
+      </Description>
+      <Shortcut>mvvmprop</Shortcut>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>PropName</ID>
+          <ToolTip>Type the property name.</ToolTip>
+          <Default>MyProperty</Default>
+        </Literal>
+        <Literal>
+          <ID>PropType</ID>
+          <ToolTip>Type the property's data type.</ToolTip>
+          <Default>string</Default>
+        </Literal>
+        <Literal>
+          <ID>PropScope</ID>
+          <ToolTip>Type the property's scope</ToolTip>
+          <Default>public</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="CSharp">
+        <![CDATA[ 
+  private $PropType$ b_$PropName$;
+                    
+  $PropScope$ $PropType$ $PropName$ 
+  { 
+      get 
+      { 
+          return b_$PropName$; 
+      } 
+      set 
+      { 
+          PropertyChanged.SetAndRaise(value, ref b_$PropName$, "$PropName$", this); 
+      } 
+  } 
+                ]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
