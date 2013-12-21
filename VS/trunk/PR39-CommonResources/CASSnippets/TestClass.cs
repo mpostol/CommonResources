@@ -53,7 +53,7 @@ namespace CASSnippets
     /// <param name="propertyName">The property's name as required by <typeparamref name="System.ComponentModel.PropertyChangedEventArgs"/>.</param>
     /// <param name="sender">The object to be appointed as the executioner of the handler.</param>
     /// <returns>A boolean value that indicates if the new value was truly different from the old value according to <code>object.Equals()</code>.</returns>
-    public static bool SetAndRaise<T>(this PropertyChangedEventHandler handler, T newValue, ref T oldValue, string propertyName, object sender)
+    public static bool RaiseHandler<T>(this PropertyChangedEventHandler handler, T newValue, ref T oldValue, string propertyName, object sender)
     {
       bool changed = !Object.Equals(oldValue, newValue);
       if (changed)
