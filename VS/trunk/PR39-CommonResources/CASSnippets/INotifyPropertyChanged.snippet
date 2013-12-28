@@ -41,7 +41,7 @@
       } 
       set 
       { 
-          PropertyChanged.SetAndRaise(value, ref b_$PropName$, "$PropName$", this); 
+          PropertyChanged.RaiseHandler<$PropType$>(value, ref b_$PropName$, "$PropName$", this); 
       } 
   } 
                 ]]>
