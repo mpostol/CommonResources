@@ -33,8 +33,8 @@ string SHRAssemblyVersion = "1.70.11.*";
 string SHRAssemblyFileVersion = "1.70.11";
 
 //PR43-AgileWorkloadTracker
-string AWTAssemblyVersion = "1.10.02.*";
-string AWTAssemblyFileVersion = "1.10.02";
+string AWTAssemblyVersion = "1.10.03.*";
+string AWTAssemblyFileVersion = "1.10.03";
 
 
 //CommServer
