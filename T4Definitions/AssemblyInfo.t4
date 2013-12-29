@@ -32,6 +32,11 @@ string CWAssemblyFileVersion = "1.90.00";
 string SHRAssemblyVersion = "1.70.11.*";
 string SHRAssemblyFileVersion = "1.70.11";
 
+//PR43-AgileWorkloadTracker
+string AWTAssemblyVersion = "1.10.02.*";
+string AWTAssemblyFileVersion = "1.10.02";
+
+
 //CommServer
 string AssemblyProduct = "CAS CommServer Family";
 string AssemblyTrademark = "CommServer";
