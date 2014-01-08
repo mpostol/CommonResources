@@ -29,8 +29,8 @@ string CWAssemblyVersion = "1.90.00.*";
 string CWAssemblyFileVersion = "1.90.00";
 
 // Smart Factory Shepherd (SHR)
-string SHRAssemblyVersion = "1.70.11.*";
-string SHRAssemblyFileVersion = "1.70.11";
+string SHRAssemblyVersion = "1.70.12.*";
+string SHRAssemblyFileVersion = "1.70.12";
 
 //PR43-AgileWorkloadTracker
 
@@ -62,7 +62,7 @@ string CSUAAssemblyVersion = "1.00.33.*";
 string CSUAAssemblyFileVersion = "1.00.33";
 
 //Common
-string AssemblyCopyright = "Copyright (c) 2000-2013 CAS LODZ POLAND";
+string AssemblyCopyright = "Copyright (c) 2000-2014 CAS LODZ POLAND";
 string AssemblyCompany = "CAS";
 string Url = "www.cas.eu";
 string Email = "techsupp@cas.eu";
