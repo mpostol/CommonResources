@@ -5,8 +5,8 @@ string SFAssemblyProduct = "Smart Factory";
 string SFAssemblyTrademark = "Smart Factory";
 
 //PR44-SharePoint
-string SFSharePointAssemblyVersion = "1.70.32.*";
-string SFSharePointAssemblyFileVersion = "1.70.32";
+string SFSharePointAssemblyVersion = "1.70.34.*";
+string SFSharePointAssemblyFileVersion = "1.70.34";
 string SFSharePointSetupAssemblyVersion = "1.81.00.*";
 string SFSharePointSetupAssemblyFileVersion = "1.81.00";
 string SFSharePointLinqClientVersion = "1.81.00.*";
