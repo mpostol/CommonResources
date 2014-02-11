@@ -3,13 +3,13 @@
   <CodeSnippet Format="1.0.0">
     <Header>
       <Title>
-        INotifyPropertyChange-Enabled Property using extension method RaiseHandler
+        INotifyPropertyChange-Enabled calling RaiseHandler from base class.
       </Title>
       <Description>
-        Declares a new property whose SET accessor raises the INotifyPropertyChanged.PropertyChanged event using a helper extension method.
-        NOTE:  The reference to the class library containing the extension method must be added and the using statement must be included in the code file too.
+        Declares a new property whose SET accessor raises the INotifyPropertyChanged.PropertyChanged event using a helper method that must be defined in the base class.
+        NOTE:  The class containing property must be derived from CAS.SharePoint.ComponentModel.PropertyChangedBase.
       </Description>
-      <Shortcut>mvvmpropext</Shortcut>
+      <Shortcut>mvvmpropbase</Shortcut>
     </Header>
     <Snippet>
       <Declarations>
@@ -41,7 +41,7 @@
       } 
       set 
       { 
-          PropertyChanged.RaiseHandler<$PropType$>(value, ref b_$PropName$, "$PropName$", this); 
+          RaiseHandler<$PropType$>(value, ref b_$PropName$, "$PropName$", this); 
       } 
   } 
                 ]]>

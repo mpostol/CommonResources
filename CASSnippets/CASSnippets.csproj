@@ -45,6 +45,7 @@
   <ItemGroup>
     <None Include="CASHeader.snippet" />
     <None Include="INotifyPropertyChanged.snippet" />
+    <None Include="INotifyPropertyChangedBase.snippet" />
     <None Include="INotifyPropertyChangedRaise.snippet" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
