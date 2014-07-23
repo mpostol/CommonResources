@@ -14,15 +14,15 @@ string SFSharePointLinqClientFileVersion = "2.00.20";
 
 //PR42-SmartFactory
 
-string SFTagVersion = "2.00.21";
+string SFTagVersion = "2.10.00";
 
 //Smart Factory Inward Processing Relief (CAS.SmartFactory.IPR) 
 string IPRAssemblyVersion = "2.00.21.*";
 string IPRAssemblyFileVersion = "2.00.21";
 
-//Smart Factory Inward Processing Relief (CAS.SmartFactory.IPR.Client) 
-string IPRClientAssemblyVersion = "1.81.10.*";
-string IPClientRAssemblyFileVersion = "1.81.10";
+//Smart Factory Inward Processing Relief Client (CAS.SmartFactory.IPR.Client) 
+string IPRClientAssemblyVersion = "2.10.00.*";
+string IPClientRAssemblyFileVersion = "2.10.00";
 
 //Smart Factory Customs Warehousing (CW)
 string CWAssemblyVersion = "2.00.02.*";
