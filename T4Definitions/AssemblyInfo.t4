@@ -21,8 +21,8 @@ string IPRAssemblyVersion = "2.00.21.*";
 string IPRAssemblyFileVersion = "2.00.21";
 
 //Smart Factory Inward Processing Relief Client (CAS.SmartFactory.IPR.Client) 
-string IPRClientAssemblyVersion = "2.10.00.*";
-string IPClientRAssemblyFileVersion = "2.10.00";
+string IPRClientAssemblyVersion = "2.10.04.*";
+string IPClientRAssemblyFileVersion = "2.10.04";
 
 //Smart Factory Customs Warehousing (CW)
 string CWAssemblyVersion = "2.00.02.*";
