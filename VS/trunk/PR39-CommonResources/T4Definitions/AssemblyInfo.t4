@@ -1,5 +1,11 @@
 <#+
 
+//CAS Framework (Lib)
+string LibAssemblyProduct = "CAS Framework";
+string LibAssemblyTrademark = "CAS Framework";
+string LibSharePointAssemblyVersion = "1.00.00.*";
+string LibSharePointAssemblyFileVersion = "1.00.00";
+
 //Smart Factory (SF)
 string SFAssemblyProduct = "Smart Factory";
 string SFAssemblyTrademark = "Smart Factory";
