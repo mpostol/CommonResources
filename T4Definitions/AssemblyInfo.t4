@@ -1,4 +1,10 @@
 <#+
+//Common
+string AssemblyCopyright = "Copyright (c) 2000-2014 CAS LODZ POLAND";
+string AssemblyCompany = "CAS";
+string Url = "www.cas.eu";
+string Email = "techsupp@cas.eu";
+string Phone = "+48 (42) 686 25 47";
 
 //CAS Framework (Lib)
 string LibAssemblyProduct = "CAS Framework";
@@ -66,16 +72,14 @@ string DPDiagnosticAssemblyFileVersion = "2.00.01";
 
 //CommServer UA
 
+//OPCUA_SDK
+string OPCUASDKProductName = "OPCUA_SDK";
+string OPCUASDKAssemblyVersion = "1.01.326.01*";
+string OPCUASDKAssemblyFileVersion = "1.01.326";
+
 //CommServer UA Server
 string CSUAAssemblyProduct = "CAS CommServerUA Family";
 string CSUAAssemblyVersion = "1.00.33.*";
 string CSUAAssemblyFileVersion = "1.00.33";
-
-//Common
-string AssemblyCopyright = "Copyright (c) 2000-2014 CAS LODZ POLAND";
-string AssemblyCompany = "CAS";
-string Url = "www.cas.eu";
-string Email = "techsupp@cas.eu";
-string Phone = "+48 (42) 686 25 47";
 
 #>
