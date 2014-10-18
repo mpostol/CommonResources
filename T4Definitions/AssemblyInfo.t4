@@ -72,6 +72,11 @@ string DPDiagnosticAssemblyFileVersion = "2.00.01";
 
 //CommServer UA
 
+// Model Compiler Common
+string CSUAMCCVersion = "1.02.26.*";
+string CSUAMCCFileVersion = "1.02.26";
+
+
 //OPCUA_SDK
 string OPCUASDKProductName = "OPCUA_SDK";
 string OPCUASDKAssemblyVersion = "1.01.326.01*";
