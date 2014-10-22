@@ -9,8 +9,9 @@ string Phone = "+48 (42) 686 25 47";
 //CAS Framework (Lib)
 string LibAssemblyProduct = "CAS Framework";
 string LibAssemblyTrademark = "CAS Framework";
-string LibSharePointAssemblyVersion = "1.00.00.*";
-string LibSharePointAssemblyFileVersion = "1.00.00";
+//CAS.CommonClassLibrary (CAS.Common)
+string CommonClassLibraryVersion = "1.20.00.*";
+string CommonClassLibraryVersionFileVersion = "2.20.00";
 
 
 //PR44-SharePoint
@@ -20,10 +21,6 @@ string SFSharePointSetupAssemblyVersion = "1.81.00.*";
 string SFSharePointSetupAssemblyFileVersion = "1.81.00";
 string SFSharePointLinqClientVersion = "2.00.20.*";
 string SFSharePointLinqClientFileVersion = "2.00.20";
-
-// SmartFactory Common Assembly (CAS.SmartFactory.CommonAssembly)
-string SmartFactoryCommonAssemblyVersion = "2.20.20.*";
-string SmartFactoryCommonAssemblyFileVersion = "2.00.20";
 
 //Smart Factory (SF)
 //PR42-SmartFactory
@@ -37,8 +34,8 @@ string IPRAssemblyVersion = "2.00.21.*";
 string IPRAssemblyFileVersion = "2.00.21";
 
 //Smart Factory Inward Processing Relief Client (CAS.SmartFactory.IPR.Client)
-string IPRClientAssemblyVersion = "2.20.10.*";
-string IPClientRAssemblyFileVersion = "2.20.10";
+string IPRClientAssemblyVersion = "2.20.20.*";
+string IPClientRAssemblyFileVersion = "2.20.20";
 
 //Smart Factory Customs Warehousing (CAS.SmartFactory.CW)
 string CWAssemblyVersion = "2.00.02.*";
