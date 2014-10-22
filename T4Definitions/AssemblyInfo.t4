@@ -30,7 +30,7 @@ string SmartFactoryCommonAssemblyFileVersion = "2.00.20";
 
 string SFAssemblyProduct = "Smart Factory";
 string SFAssemblyTrademark = "Smart Factory";
-string SFTagVersion = "SHR_2.20.00";
+string SFTagVersion = "SHR_2.20.10";
 
 //Smart Factory Inward Processing Relief (CAS.SmartFactory.IPR) 
 string IPRAssemblyVersion = "2.00.21.*";
@@ -45,8 +45,8 @@ string CWAssemblyVersion = "2.00.02.*";
 string CWAssemblyFileVersion = "2.00.02";
 
 // CAS.CWDisposalRequestWebPart CAS.SmartFactory.CW.Dashboards.DisposalRequestWebPart
-string CWDisposalRequestWebPartVersion = "2.20.00.*";
-string CWDisposalRequestWebPartFileVersion = "2.20.00";
+string CWDisposalRequestWebPartVersion = "2.20.30.*";
+string CWDisposalRequestWebPartFileVersion = "2.20.30";
 
 // Smart Factory Shepherd (SHR)
 string SHRAssemblyVersion = "2.20.10.*";
