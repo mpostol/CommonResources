@@ -12,9 +12,6 @@ string LibAssemblyTrademark = "CAS Framework";
 string LibSharePointAssemblyVersion = "1.00.00.*";
 string LibSharePointAssemblyFileVersion = "1.00.00";
 
-//Smart Factory (SF)
-string SFAssemblyProduct = "Smart Factory";
-string SFAssemblyTrademark = "Smart Factory";
 
 //PR44-SharePoint
 string SFSharePointAssemblyVersion = "2.20.00.*";
@@ -24,25 +21,32 @@ string SFSharePointSetupAssemblyFileVersion = "1.81.00";
 string SFSharePointLinqClientVersion = "2.00.20.*";
 string SFSharePointLinqClientFileVersion = "2.00.20";
 
+// SmartFactory Common Assembly (CAS.SmartFactory.CommonAssembly)
+string SmartFactoryCommonAssemblyVersion = "2.20.20.*";
+string SmartFactoryCommonAssemblyFileVersion = "2.00.20";
+
+//Smart Factory (SF)
 //PR42-SmartFactory
 
-string SFTagVersion = "2.10.00";
+string SFAssemblyProduct = "Smart Factory";
+string SFAssemblyTrademark = "Smart Factory";
+string SFTagVersion = "SHR_2.20.00";
 
 //Smart Factory Inward Processing Relief (CAS.SmartFactory.IPR) 
 string IPRAssemblyVersion = "2.00.21.*";
 string IPRAssemblyFileVersion = "2.00.21";
 
-//Smart Factory Inward Processing Relief Client (CAS.SmartFactory.IPR.Client) 
-string IPRClientAssemblyVersion = "2.10.09.*";
-string IPClientRAssemblyFileVersion = "2.10.09";
+//Smart Factory Inward Processing Relief Client (CAS.SmartFactory.IPR.Client)
+string IPRClientAssemblyVersion = "2.20.10.*";
+string IPClientRAssemblyFileVersion = "2.20.10";
 
-//Smart Factory Customs Warehousing (CW)
+//Smart Factory Customs Warehousing (CAS.SmartFactory.CW)
 string CWAssemblyVersion = "2.00.02.*";
 string CWAssemblyFileVersion = "2.00.02";
 
-// SmartFactory Common Assembly (CAS.SmartFactory.CommonAssembly)
-string SmartFactoryCommonAssemblyVersion = "2.00.20.*";
-string SmartFactoryCommonAssemblyFileVersion = "2.00.20";
+// CAS.CWDisposalRequestWebPart CAS.SmartFactory.CW.Dashboards.DisposalRequestWebPart
+string CWDisposalRequestWebPartVersion = "2.20.00.*";
+string CWDisposalRequestWebPartFileVersion = "2.20.00";
 
 // Smart Factory Shepherd (SHR)
 string SHRAssemblyVersion = "2.20.00.*";
