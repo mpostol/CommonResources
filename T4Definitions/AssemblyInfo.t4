@@ -27,7 +27,7 @@ string SFSharePointLinqClientFileVersion = "2.20.20"; //Released in IPR 2.10.0
 
 string SFAssemblyProduct = "Smart Factory";
 string SFAssemblyTrademark = "Smart Factory";
-string SFTagVersion = "IPR_2.20.20";
+string SFTagVersion = "CW_2.20.30";
 
 //Smart Factory Inward Processing Relief (CAS.SmartFactory.IPR) 
 string IPRAssemblyVersion = "2.00.21.*";
