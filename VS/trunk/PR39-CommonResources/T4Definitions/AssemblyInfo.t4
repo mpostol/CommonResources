@@ -15,8 +15,8 @@ string CommonClassLibraryVersionFileVersion = "2.20.00";
 
 
 //PR44-SharePoint
-string SFSharePointAssemblyVersion = "2.20.10.*";
-string SFSharePointAssemblyFileVersion = "2.20.10";
+string SFSharePointAssemblyVersion = "2.30.00.*";
+string SFSharePointAssemblyFileVersion = "2.30.00";
 string SFSharePointSetupAssemblyVersion = "1.81.00.*";
 string SFSharePointSetupAssemblyFileVersion = "1.81.00";
 string SFSharePointLinqClientVersion = "2.20.20.*"; //Released in IPR 2.10.0
@@ -30,8 +30,8 @@ string SFAssemblyTrademark = "Smart Factory";
 string SFTagVersion = "IPR_2.20.20";
 
 //Smart Factory Inward Processing Relief (CAS.SmartFactory.IPR) 
-string IPRAssemblyVersion = "2.00.21.*";
-string IPRAssemblyFileVersion = "2.00.21";
+string IPRAssemblyVersion = "2.30.00.*";
+string IPRAssemblyFileVersion = "2.30.00";
 
 //Smart Factory Inward Processing Relief Client (CAS.SmartFactory.IPR.Client)
 string IPRClientAssemblyVersion = "2.20.20.*"; //Released in IPR 2.10.0
