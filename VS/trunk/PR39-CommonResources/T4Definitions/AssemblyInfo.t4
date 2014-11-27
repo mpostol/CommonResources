@@ -15,12 +15,16 @@ string CommonClassLibraryVersionFileVersion = "2.20.00";
 
 
 //PR44-SharePoint
-string SFSharePointAssemblyVersion = "2.30.00.*";
-string SFSharePointAssemblyFileVersion = "2.30.00";
+string SFSharePointAssemblyVersion = "2.40.00.*";
+string SFSharePointAssemblyFileVersion = "2.40.00";
 string SFSharePointSetupAssemblyVersion = "1.81.00.*";
 string SFSharePointSetupAssemblyFileVersion = "1.81.00";
 string SFSharePointLinqClientVersion = "2.20.20.*"; //Released in IPR 2.10.0
 string SFSharePointLinqClientFileVersion = "2.20.20"; //Released in IPR 2.10.0
+
+// SmartFactory Common Assembly (CAS.SmartFactory.CommonAssembly)
+string SmartFactoryCommonAssemblyVersion = "2.40.00.*";
+string SmartFactoryCommonAssemblyFileVersion = "2.40.00";
 
 //Smart Factory (SF)
 //PR42-SmartFactory
@@ -38,8 +42,8 @@ string IPRClientAssemblyVersion = "2.20.20.*"; //Released in IPR 2.10.0
 string IPClientRAssemblyFileVersion = "2.20.20"; //Released in IPR 2.10.0
 
 //Smart Factory Customs Warehousing (CAS.SmartFactory.CW)
-string CWAssemblyVersion = "2.00.02.*";
-string CWAssemblyFileVersion = "2.00.02";
+string CWAssemblyVersion = "2.40.00.*";
+string CWAssemblyFileVersion = "2.40.00";
 
 // CAS.CWDisposalRequestWebPart CAS.SmartFactory.CW.Dashboards.DisposalRequestWebPart
 string CWDisposalRequestWebPartVersion = "2.20.30.*";
