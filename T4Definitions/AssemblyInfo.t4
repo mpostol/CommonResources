@@ -5,6 +5,10 @@ string AssemblyCompany = "CAS";
 string Url = "www.cas.eu";
 string Email = "techsupp@cas.eu";
 string Phone = "+48 (42) 686 25 47";
+string DefaultProductName = "<DefaultProductName>";
+string DefaultProductTrademark = "<DefaultProductTrademark>";
+string DefaultProductVersion = "1.00.00.*";
+string DefaultProductFileVersion = "1.00.00";
 
 //PR44-SharePoint
 
@@ -64,7 +68,6 @@ string AWTTagVersion = "1.10.03";
 
 string AWTAssemblyVersion = "1.10.05.*";
 string AWTAssemblyFileVersion = "1.10.05";
-
 
 //CommServer
 string AssemblyProduct = "CAS CommServer Family";

@@ -13,15 +13,15 @@
 //  http://www.cas.eu
 //</summary>
 
+using CAS.Lib.CodeProtect;
+using CAS.Lib.CodeProtect.EnvironmentAccess;
+using CAS.Lib.CodeProtect.LicenseDsc;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Reflection;
-using CAS.Lib.CodeProtect;
-using CAS.Lib.CodeProtect.EnvironmentAccess;
-using CAS.Lib.CodeProtect.LicenseDsc;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace LicenseContainer.UT
 {
