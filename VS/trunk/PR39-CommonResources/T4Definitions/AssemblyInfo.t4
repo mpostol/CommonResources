@@ -10,6 +10,12 @@ string DefaultProductTrademark = "<DefaultProductTrademark>";
 string DefaultProductVersion = "1.00.00.*";
 string DefaultProductFileVersion = "1.00.00";
 
+//PR36-CAS_MAIN_CORE_PCKG
+string CoreProductName = "CAS Framework Core";
+string CoreProductTrademark = "CAS Framework";
+string CoreProductVersion = "5.00.00.*";
+string CoreProductFileVersion = "5.00.00";
+
 //PR44-SharePoint
 
 //CAS Framework (Lib)
