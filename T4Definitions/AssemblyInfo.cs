@@ -1,11 +1,11 @@
 ﻿//<summary>
 //  Title   : Assembly info for: <Define AssemblycTitle>
 //  System  : Microsoft Visual C# .NET
-//  $LastChangedDate: 2014-10-17 23:06:15 +0200 (Pt, 17 paź 2014) $
-//  $Rev:  $
-//  $LastChangedBy:  $
-//  $URL:  $
-//  $Id:  $
+//  $LastChangedDate$
+//  $Rev$
+//  $LastChangedBy$
+//  $URL$
+//  $Id$
 //
 //  Copyright (c) 2000-2014 CAS LODZ POLAND
 //  +48 (42) 686 25 47
