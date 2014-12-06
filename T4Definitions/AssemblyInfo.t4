@@ -79,6 +79,10 @@ string AWTAssemblyFileVersion = "1.10.05";
 string AssemblyProduct = "CAS CommServer Family";
 string AssemblyTrademark = "CommServer";
 
+//PR37-CAS_LIB_PCKG - CommServer Core
+string CLibCoreProductVersion = "5.00.00.*";
+string CLibCoreProductFileVersion = "5.00.00";
+
 //CommServer DataProviderPackage
 string DPPAssemblyVersion = "3.80.01.*";
 string DPPAssemblyFileVersion = "3.80.01";
