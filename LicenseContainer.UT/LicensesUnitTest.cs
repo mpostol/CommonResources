@@ -118,7 +118,7 @@ namespace LicenseContainer.UT
         {
           line = sr2.ReadLine();
           if ( line == null )
-            break; //end of strem
+            break; //end of stream
           elements = line.Split( ';' );
           if ( linenumber == 0 )
             header0 = elements;

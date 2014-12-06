@@ -46,7 +46,7 @@ namespace LicenseContainer.UT
       my_class = my_class.Replace( "//%%GuidInfo", guid.ToString() );
       my_class = my_class.Replace( "//%%MyFunction", functionality_name );
       CSharpStreamCompiller cssc = new CSharpStreamCompiller( my_class, new string[] { "CAS.CodeProtect.dll" } );
-      CompiledAssembly = cssc.CompiledAssembly;
+      CompiledAssembly = cssc.CompiledAssembly();
       TestDictionary = new Dictionary<int, string>();
     }
     public override string ToString()
