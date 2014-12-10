@@ -31,8 +31,6 @@
       </Declarations>
       <Code Language="CSharp">
         <![CDATA[ 
-  private $PropType$ b_$PropName$;
-                    
   $PropScope$ $PropType$ $PropName$ 
   { 
       get 
@@ -44,6 +42,8 @@
           PropertyChanged.RaiseHandler<$PropType$>(value, ref b_$PropName$, "$PropName$", this); 
       } 
   } 
+  private $PropType$ b_$PropName$;
+                    
                 ]]>
       </Code>
     </Snippet>
