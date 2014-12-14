@@ -80,12 +80,14 @@ namespace LicenseContainer.UT
     #endregion
 
     [TestMethod]
+    [TestCategory("LicensesContainer")]
     public void Test_All_CommServer_Licenses()
     {
       PerformTestOnProduct( "CommServer" );
     }
 
     [TestMethod]
+    [TestCategory("LicensesContainer")]
     public void Test_All_DataPorter_Licenses()
     {
       PerformTestOnProduct( "DataPorter" );
@@ -93,12 +95,14 @@ namespace LicenseContainer.UT
 
 
     [TestMethod]
+    [TestCategory("LicensesContainer")]
     public void Test_All_CommServerUA_Licenses()
     {
       PerformTestOnProduct( "CommServerUA" );
     }
 
     [TestMethod]
+    [TestCategory("LicensesContainer")]
     public void Test_All_UAModelDesigner_Licenses()
     {
       PerformTestOnProduct( "UA.ModelDesigner" );

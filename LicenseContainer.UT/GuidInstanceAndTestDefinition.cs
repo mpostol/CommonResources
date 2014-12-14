@@ -21,6 +21,13 @@ using CAS.Lib.RTLib.Utils;
 
 namespace LicenseContainer.UT
 {
+  /// <summary>
+  /// Class GuidInstanceAndTestDefinition.
+  /// </summary>
+  /// <remarks>
+  /// It reads the source code of a class from resources and modifies it by replacing GuidAttribute, GuidInfo, MyFunction. 
+  /// The modified class is compiled and assigned to <paramref name="CompiledAssembly"/>. 
+  /// </remarks>
   class GuidInstanceAndTestDefinition
   {
     static string template_class;
@@ -45,8 +52,8 @@ namespace LicenseContainer.UT
       string my_class = template_class.Replace( "//%%GuidAttribute", string.Format( "[GuidAttribute( \"{0}\" )]", guid.ToString() ) );
       my_class = my_class.Replace( "//%%GuidInfo", guid.ToString() );
       my_class = my_class.Replace( "//%%MyFunction", functionality_name );
-      CSharpStreamCompiller cssc = new CSharpStreamCompiller( my_class, new string[] { "CAS.CodeProtect.dll" } );
-      CompiledAssembly = cssc.CompiledAssembly();
+      CSharpStreamCompiller _Compiler = new CSharpStreamCompiller(my_class, new string[] { "CAS.CodeProtect.dll" });
+      CompiledAssembly = _Compiler.CompiledAssembly();
       TestDictionary = new Dictionary<int, string>();
     }
     public override string ToString()
