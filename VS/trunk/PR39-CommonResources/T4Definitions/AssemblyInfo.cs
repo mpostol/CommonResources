@@ -1,5 +1,5 @@
 ﻿//<summary>
-//  Title   : Assembly info for: <Define AssemblycTitle>
+//  Title   : Assembly info for: <Define Assembly Title>
 //  System  : Microsoft Visual C# .NET
 //  $LastChangedDate$
 //  $Rev$
@@ -17,8 +17,8 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("<Define AssemblycTitle>")]
-[assembly: AssemblyDescription("<DefaultProductName>: <Define AssemblycTitle>")]
+[assembly: AssemblyTitle("<Define Assembly Title>")]
+[assembly: AssemblyDescription("<DefaultProductName>: <Define Assembly Title>")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("CAS")]
 [assembly: AssemblyProduct("<DefaultProductName>")]
