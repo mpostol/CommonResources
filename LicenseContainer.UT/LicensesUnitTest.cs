@@ -113,7 +113,7 @@ namespace LicenseContainer.UT
       using ( StreamReader sr2 = new StreamReader( Assembly.GetExecutingAssembly().GetManifestResourceStream( string.Format( csv_file_templateformat, productName ) ) ) )
       {
         string line;
-        int linenumber = 0;
+        int lineNumber = 0;
         string[] header0 = null;
         string[] header1 = null;
         string[] elements;
@@ -124,18 +124,18 @@ namespace LicenseContainer.UT
           if ( line == null )
             break; //end of stream
           elements = line.Split( ';' );
-          if ( linenumber == 0 )
+          if (lineNumber == 0)
             header0 = elements;
-          else if ( linenumber == 1 )
+          else if (lineNumber == 1)
           {
             header1 = elements;
             PrepareTestDefinitions( header0, header1, tests );
           }
-          if ( linenumber > 1 )
+          if (lineNumber > 1)
           {
             PerformAllTestsOnOneLicense( productName, header0, elements, tests );
           }
-          linenumber++;
+          lineNumber++;
         } while ( true );
       }
     }
