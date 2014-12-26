@@ -95,10 +95,10 @@ string DPDiagnosticAssemblyFileVersion = "2.00.01";
 
 //CommServer UA
 
-//CommServer UA Server
+//CommServer UA Server (CAS.UA.Common)
 string CSUAAssemblyProduct = "CAS CommServerUA Family";
-string CSUAAssemblyVersion = "1.00.33.*";
-string CSUAAssemblyFileVersion = "1.00.33";
+string CSUAAssemblyVersion = "2.00.00.*";
+string CSUAAssemblyFileVersion = "2.00.00";
 
 // Model Compiler Common
 string CSUAMCCVersion = "1.02.26.*";
@@ -110,7 +110,7 @@ string CASUAServerServerConfigurationFileVersion = "3.00.10";
 
 //OPCUA_SDK
 string OPCUASDKProductName = "OPCUA_SDK";
-string OPCUASDKAssemblyVersion = "1.01.326.01*";
+string OPCUASDKAssemblyVersion = "1.01.326.*";
 string OPCUASDKAssemblyFileVersion = "1.01.326";
 
 #>
