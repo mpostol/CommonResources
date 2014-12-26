@@ -1,4 +1,5 @@
 <#+
+#pragma warning disable 1591
 //Common
 string AssemblyCopyright = "Copyright (c) 2000-2014 CAS LODZ POLAND";
 string AssemblyCompany = "CAS";
@@ -97,8 +98,8 @@ string DPDiagnosticAssemblyFileVersion = "2.00.01";
 
 //CommServer UA Server (CAS.UA.Common)
 string CSUAAssemblyProduct = "CAS CommServerUA Family";
-string CSUAAssemblyVersion = "2.00.00.*";
-string CSUAAssemblyFileVersion = "2.00.00";
+string CSUAAssemblyVersion = "2.00.02.*";
+string CSUAAssemblyFileVersion = "2.00.02";
 
 // Model Compiler Common
 string CSUAMCCVersion = "1.02.26.*";
@@ -113,4 +114,5 @@ string OPCUASDKProductName = "OPCUA_SDK";
 string OPCUASDKAssemblyVersion = "1.01.326.*";
 string OPCUASDKAssemblyFileVersion = "1.01.326";
 
+#pragma warning restore 1591
 #>
