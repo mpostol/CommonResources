@@ -106,8 +106,8 @@ string CSUAMCCVersion = "1.02.26.*";
 string CSUAMCCFileVersion = "1.02.26";
 
 // CAS.UA.Server.ServerConfiguration
-string CASUAServerServerConfigurationVersion = "3.00.10.*";
-string CASUAServerServerConfigurationFileVersion = "3.00.10";
+string CASUAServerServerConfigurationVersion = "3.00.12.*";
+string CASUAServerServerConfigurationFileVersion = "3.00.12";
 
 //OPCUA_SDK
 string OPCUASDKProductName = "OPCUA_SDK";
