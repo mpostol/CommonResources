@@ -1,7 +1,7 @@
 <#+
 #pragma warning disable 1591
 //Common
-string AssemblyCopyright = "Copyright (c) 2000-2014 CAS LODZ POLAND";
+string AssemblyCopyright = "Copyright (c) 2000-2015 CAS LODZ POLAND";
 string AssemblyCompany = "CAS";
 string Url = "www.cas.eu";
 string Email = "techsupp@cas.eu";
@@ -68,6 +68,10 @@ string CWDisposalRequestWebPartFileVersion = "2.20.30";
 // Smart Factory Shepherd (SHR)
 string SHRAssemblyVersion = "2.20.10.*";
 string SHRAssemblyFileVersion = "2.20.10";
+
+//CAS.ShepherdManagement
+string ShepherdManagementAssemblyVersion = "2.60.10.*";
+string ShepherdManagementAssemblyFileVersion = "2.60.10";
 
 //PR43-AgileWorkloadTracker
 
