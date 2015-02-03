@@ -28,8 +28,8 @@ string CommonClassLibraryVersion = "2.60.10.*";
 string CommonClassLibraryVersionFileVersion = "2.60.10";
 
 //SharePointClient (CAS.SharePointClient)
-string SFSharePointLinqClientVersion = "2.20.21.*"; //Released in IPR 2.10.0
-string SFSharePointLinqClientFileVersion = "2.20.21"; //Released in IPR 2.10.0
+string SFSharePointLinqClientVersion = "2.60.10.*"; //Released in SHR 2.60.10
+string SFSharePointLinqClientFileVersion = "2.60.10"; //Released in 2.60.10
 
 
 //SharePoint (CAS.SharePoint)
