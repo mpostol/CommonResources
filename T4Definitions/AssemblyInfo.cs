@@ -1,20 +1,19 @@
-﻿//<summary>
-//  Title   : Assembly info for: <Define Assembly Title>
-//  System  : Microsoft Visual C# .NET
+﻿//_______________________________________________________________
+//  Title   :  Assembly info for: <Define Assembly Title>
+//  System  : Microsoft VisualStudio 2013 / C#
 //  $LastChangedDate$
 //  $Rev$
 //  $LastChangedBy$
 //  $URL$
 //  $Id$
 //
-//  Copyright (c) 2000-2014 CAS LODZ POLAND
+//  Copyright (c) 2000-2015 CAS LODZ POLAND
 //  +48 (42) 686 25 47
 //  techsupp@cas.eu
 //  www.cas.eu
-//</summary>
+//_______________________________________________________________
 
 using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyTitle("<Define Assembly Title>")]
@@ -22,7 +21,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("CAS")]
 [assembly: AssemblyProduct("<DefaultProductName>")]
-[assembly: AssemblyCopyright("Copyright (c) 2000-2014 CAS LODZ POLAND")]
+[assembly: AssemblyCopyright("Copyright (c) 2000-2015 CAS LODZ POLAND")]
 [assembly: AssemblyTrademark("<DefaultProductTrademark>")]
 [assembly: AssemblyCulture("")]
 
