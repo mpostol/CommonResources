@@ -49,6 +49,10 @@ string SFAssemblyProduct = "Smart Factory";
 string SFAssemblyTrademark = "Smart Factory";
 string SFTagVersion = "SHR_2.60.10";
 
+//CAS.SmartFactory
+string CASSmartFactoryVersion = "2.30.00.*";
+string CASSmartFactoryFileVersion = "2.30.00";
+
 //Smart Factory Inward Processing Relief (CAS.SmartFactory.IPR) 
 string IPRAssemblyVersion = "2.30.00.*";
 string IPRAssemblyFileVersion = "2.30.00";

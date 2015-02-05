@@ -46,7 +46,9 @@
     <None Include="CASHeader.snippet">
       <SubType>Designer</SubType>
     </None>
-    <None Include="INotifyPropertyChanged.snippet" />
+    <None Include="INotifyPropertyChanged.snippet">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="INotifyPropertyChangedBase.snippet" />
     <None Include="INotifyPropertyChangedRaise.snippet" />
   </ItemGroup>
