@@ -27,6 +27,10 @@ string LibAssemblyTrademark = "CAS Framework";
 string CommonClassLibraryVersion = "2.60.10.*";
 string CommonClassLibraryVersionFileVersion = "2.60.10";
 
+//CAS.Common.Serialization
+string CommonSerializationVersion = "1.00.00.*";
+string CommonSerializationFileVersion = "1.00.00";
+
 //SharePointClient (CAS.SharePointClient)
 string SFSharePointLinqClientVersion = "2.60.10.*"; //Released in SHR 2.60.10
 string SFSharePointLinqClientFileVersion = "2.60.10"; //Released in 2.60.10
