@@ -110,10 +110,10 @@ string DPDiagnosticAssemblyFileVersion = "2.00.01";
 
 //CommServer UA
 
-//CommServer UA Server (CAS.UA.Common)
+//CAS.UA.Common  UA common library
 string CSUAAssemblyProduct = "CAS CommServerUA Family";
-string CSUAAssemblyVersion = "2.00.02.*";
-string CSUAAssemblyFileVersion = "2.00.02";
+string CSUAAssemblyVersion = "2.01.02.*";
+string CSUAAssemblyFileVersion = "2.01.02";
 
 // CAS.UA.Model.Designer
 string CASUAMDVersion = "3.00.10.*";
