@@ -42,6 +42,12 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CAS.CodeProtect">
+      <HintPath>..\..\CommonBinaries\PR36-CAS_MAIN_CORE_PCKG\50000\CAS.CodeProtect.dll</HintPath>
+    </Reference>
+    <Reference Include="CAS.RTLib">
+      <HintPath>..\..\CommonBinaries\PR36-CAS_MAIN_CORE_PCKG\50000\CAS.RTLib.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Configuration.Install" />
@@ -58,14 +64,6 @@
     <Content Include="AuthoringTests.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\PR36-CAS_MAIN_CORE_PCKG\BK.CodeProtect\BK.CodeProtect.csproj">
-      <Project>{5e8d8581-87ed-4f5a-bdeb-09a01e45d3cc}</Project>
-      <Name>BK.CodeProtect</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\PR36-CAS_MAIN_CORE_PCKG\RTLib\BK.RTLib.csproj">
-      <Project>{a6c02710-7ec3-43b1-8010-6f7b4926ec48}</Project>
-      <Name>BK.RTLib</Name>
-    </ProjectReference>
     <ProjectReference Include="..\LicensesContainer\LicensesContainer.csproj">
       <Project>{234A138E-4E17-4F12-84A3-A920DDAE0D86}</Project>
       <Name>LicensesContainer</Name>
