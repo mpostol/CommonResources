@@ -148,6 +148,18 @@
   <ItemGroup>
     <EmbeddedResource Include="CommServerUA\CAS.License.CommServerUA.TRIAL.__310bfe11__.lic" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UA.ModelDesignerTP\CAS.License.ASMD.PE.__ec0a9fe2__.lic" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UA.ModelDesignerTP\CAS.License.ASMD.PE.DEMO.__DefaultDemo__.lic" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UA.ModelDesignerTP\CAS.License.ASMD.SE.__c06ec016__.lic" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UA.ModelDesignerTP\CAS.License.ASMD.SE.NC.__StdNC__.lic" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
