@@ -117,7 +117,7 @@ string CSUAAssemblyFileVersion = "2.01.02";
 
 // CAS.UA.Model.Designer
 string CASUAMDVersion = "3.10.00.*";
-string CASUAMDVersionVersion = "3.10.10";
+string CASUAMDVersionVersion = "3.10.00";
 
 
 // CAS.UA.Server.ServerConfiguration
