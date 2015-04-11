@@ -15,17 +15,15 @@
 
 using System.Reflection;
 using System.Runtime.InteropServices;
-
 [assembly: AssemblyTitle("<Define Assembly Title>")]
-[assembly: AssemblyDescription("<DefaultProductName>: <Define Assembly Title>")]
+[assembly: AssemblyDescription("Default Product Name: <Define Assembly Title>")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("CAS")]
-[assembly: AssemblyProduct("<DefaultProductName>")]
+[assembly: AssemblyProduct("Default Product Name")]
 [assembly: AssemblyCopyright("Copyright (c) 2000-2015 CAS LODZ POLAND")]
-[assembly: AssemblyTrademark("<DefaultProductTrademark>")]
+[assembly: AssemblyTrademark("Default Product Trademark>")]
 [assembly: AssemblyCulture("")]
-
-[assembly: Guid("9f3155f3-599c-4a1c-b3fb-16e8cc305051")]
+[assembly: Guid("<GUID>")]
 [assembly: AssemblyVersion("1.00.00.*")]
 [assembly: AssemblyFileVersion("1.00.00")]
 
