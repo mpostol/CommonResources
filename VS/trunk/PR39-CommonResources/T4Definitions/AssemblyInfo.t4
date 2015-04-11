@@ -88,48 +88,5 @@ string AWTProduct = "Smart Factory Agile Workload Tracker";
 string AWTTrademark = "Smart Factory AWT";
 string AWTAssemblyVersion = "2.00.00";
 
-//CommServer
-string AssemblyProduct = "CAS CommServer Family";
-string AssemblyTrademark = "CommServer";
-
-//PR37-CAS_LIB_PCKG - CommServer Core
-string CLibCoreProductVersion = "5.00.00.*";
-string CLibCoreProductFileVersion = "5.00.00";
-
-//CommServer DataProviderPackage
-string DPPAssemblyVersion = "3.80.01.*";
-string DPPAssemblyFileVersion = "3.80.01";
-
-//CommServer DataProviderDiagnostic
-string DPDiagnosticAssemblyVersion = "2.00.01.*";
-string DPDiagnosticAssemblyFileVersion = "2.00.01";
-
-//CommServer Classic
-
-//CommServer UA
-
-//CAS.UA.Common  UA common library
-string CSUAAssemblyProduct = "CAS CommServerUA Family";
-string CSUAAssemblyVersion = "2.01.02.*";
-string CSUAAssemblyFileVersion = "2.01.02";
-
-// CAS.UA.Model.Designer
-string CASUAMDVersion = "3.10.01.*";
-string CASUAMDVersionVersion = "3.10.01";
-
-
-// CAS.UA.Server.ServerConfiguration
-string CASUAServerServerConfigurationVersion = "3.00.12.*";
-string CASUAServerServerConfigurationFileVersion = "3.00.12";
-
-// Model Compiler Common
-string CSUAMCCVersion = "1.02.26.*";
-string CSUAMCCFileVersion = "1.02.26";
-
-
-//OPCUA_SDK
-string OPCUASDKProductName = "OPCUA_SDK";
-string OPCUASDKAssemblyVersion = "1.01.326.*";
-string OPCUASDKAssemblyFileVersion = "1.01.326";
 
 #>
