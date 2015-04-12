@@ -62,4 +62,9 @@ string OPCUASDKAssemblyVersion = "1.01.326";
 string OPCUAIServerConfigurationProductName = "CAS Address Space Model Designer";
 string OPCUAIServerConfigurationAssemblyVersion = "1.00.00";
 
+//CAS.UA.SDK.ServerConfigurationBase in CAS.UASDKServerConfiguration
+string CASUASDKServerConfigurationBaseProductName = "CAS Address Space Model Designer SDK";
+string CASUASDKServerConfigurationBaseAssemblyVersion = "1.00.00";
+
+
 #>
