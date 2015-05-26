@@ -53,7 +53,7 @@ string SmartFactoryCommonAssemblyFileVersion = "2.60.20";
 
 string SFAssemblyProduct = "Smart Factory";
 string SFAssemblyTrademark = "Smart Factory";
-string SFTagVersion = "SHR_2.60.10";
+string SFTagVersion = "IPRCW_2.60.20";
 
 //CAS.SmartFactory
 string CASSmartFactoryVersion = "2.30.02.*";
