@@ -39,8 +39,7 @@ string SFSharePointLinqClientFileVersion = "2.60.10"; //Released in 2.60.10
 //SharePoint (CAS.SharePoint)
 string CASSharePointCommonAssemblyVersion = "1.70.36.*";
 string CASSharePointCommonFileVersion = "1.70.36";
-string SFSharePointAssemblyVersion = "2.61.00.*";
-string SFSharePointAssemblyFileVersion = "2.61.00";
+string SFSharePointAssemblyVersion = "2.61.01";
 string SFSharePointSetupAssemblyVersion = "1.81.00.*";
 string SFSharePointSetupAssemblyFileVersion = "1.81.00";
 
