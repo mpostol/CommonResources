@@ -59,8 +59,8 @@ string CASSmartFactoryVersion = "2.30.02.*";
 string CASSmartFactoryFileVersion = "2.30.02";
 
 //CAS.SmartFactory.IPR - Smart Factory Inward Processing Relief 
-string IPRAssemblyVersion = "2.60.21.*";
-string IPRAssemblyFileVersion = "2.60.21";
+string IPRAssemblyVersion = "2.60.23.*";
+string IPRAssemblyFileVersion = "2.60.23";
 
 //CAS.SmartFactory.IPR.Client - Smart Factory Inward Processing Relief Client 
 string IPRClientAssemblyVersion = "2.20.20.*"; //Released in IPR 2.10.0
