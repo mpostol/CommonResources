@@ -46,9 +46,13 @@ string CASUACommonVersion = "3.00.00";
 string CASUAMDProductName = "CAS OPC UA Address Space Model Designer";
 string CASUAMDVersion = "3.10.03";
 
-
 // CAS.UA.Server.ServerConfiguration
 string CASUAServerServerConfigurationVersion = "3.00.12";
+
+
+// CAS.UA.Server
+string CASUAServerProduct = "CAS CommServerUA Family";
+string CASUAServerVersion = "1.00.33";
 
 // Model Compiler Common
 string CSUAMCCVersion = "1.02.26";
