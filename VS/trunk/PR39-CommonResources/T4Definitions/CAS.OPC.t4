@@ -70,5 +70,14 @@ string OPCUAIServerConfigurationAssemblyVersion = "1.00.00";
 string CASUASDKServerConfigurationBaseProductName = "CAS Address Space Model Designer SDK";
 string CASUASDKServerConfigurationBaseAssemblyVersion = "1.00.00";
 
+//____________________________________
+//New Namespaces organization
+//CAS.CommServer
+//CAS.CommServer.UA
+//CAS.CommServer.UA.ModelDesigner
+//CAS.CommServer.UA.SDKServerConfiguration
+//CAS.CommServer.UA.Server
+//CAS.CommServer.UA.Viewer
+//CAS.CommServer.UA.XML
 
 #>
