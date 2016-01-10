@@ -1,6 +1,6 @@
 ﻿<#+
 //Common
-string AssemblyCopyright = "Copyright (c) 2000-2015 CAS LODZ POLAND";
+string AssemblyCopyright = "Copyright (c) 2000-2016 CAS LODZ POLAND";
 string AssemblyCompany = "CAS";
 string Url = "www.cas.eu";
 string Email = "techsupp@cas.eu";
@@ -44,10 +44,10 @@ string CASUACommonVersion = "3.00.00";
 
 // CAS.UA.Model.Designer
 string CASUAMDProductName = "CAS OPC UA Address Space Model Designer";
-string CASUAMDVersion = "3.10.03";
+string CASUAMDVersion = "3.20.0";
 
 // CAS.UA.Server.ServerConfiguration
-string CASUAServerServerConfigurationVersion = "3.00.12";
+string CASUAServerServerConfigurationVersion = "3.20.0";
 
 
 // CAS.UA.Server

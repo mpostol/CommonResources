@@ -19,7 +19,7 @@
     <releaseNotes>
       Add releaseNotes if needed.
 	</releaseNotes>
-    <copyright>Copyright (c) 2000-2015 CAS LODZ POLAND</copyright>
+    <copyright>Copyright (c) 2000-2016 CAS LODZ POLAND</copyright>
     <tags>OPCUA, CommServer, ASMD, Address Space Model Designer.</tags>
   </metadata>
   <files>
