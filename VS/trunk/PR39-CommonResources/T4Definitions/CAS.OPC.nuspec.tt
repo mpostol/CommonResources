@@ -9,14 +9,14 @@
     <authors><#=AssemblyCompany#></authors>
     <owners><#=Owner#></owners>
     <projectUrl>http://www.commsvr.com/</projectUrl>
-	<licenseUrl>http://www.cas.internetdsl.pl/commserver/P_DowloadCenter/Lic-09000401EN_License_Agreement.pdf</licenseUrl>
+	  <licenseUrl>http://www.cas.internetdsl.pl/commserver/P_DowloadCenter/Lic-09000401EN_License_Agreement.pdf</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <developmentDependency>false</developmentDependency>
     <description>
-	  description must be added
+	    description must be added
     </description>
     <summary>
-	  summary must be added.
+	    summary must be added.
     </summary>
     <releaseNotes>
       Add releaseNotes if needed.
