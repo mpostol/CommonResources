@@ -1,15 +1,16 @@
 ﻿<#+
-
 //Common
-string AssemblyCopyright = "Copyright (c) 2000-2015 CAS LODZ POLAND";
+string AssemblyCopyright = "Copyright (c) 2000-2016 CAS LODZ POLAND";
 string AssemblyCompany = "CAS";
 string Url = "www.cas.eu";
 string Email = "techsupp@cas.eu";
 string Phone = "+48 (42) 686 25 47";
-string DefaultProductName = "<DefaultProductName>";
-string DefaultProductTrademark = "<DefaultProductTrademark>";
-string DefaultProductVersion = "1.00.00.*";
-string DefaultProductFileVersion = "1.00.00";
+string Owner = "cas.eu";
+
+//Default product description
+string DefaultProductName = "{DefaultProductName}";
+string DefaultProductTrademark = "{DefaultProductTrademark}";
+string DefaultProductVersion = "1.00.00";
 
 //PR36-CAS_MAIN_CORE_PCKG
 string CoreProductName = "CAS Framework Core";
@@ -31,7 +32,7 @@ string CommonClassLibraryVersionFileVersion = "2.60.10";
 string CommonSerializationVersion = "1.00.00.*";
 string CommonSerializationFileVersion = "1.00.00";
 
-//SharePointClient (CAS.SharePointClient)
+//SharePointClient (CAS.SharePoint.Client)
 string SFSharePointLinqClientVersion = "2.60.10.*"; //Released in SHR 2.60.10
 string SFSharePointLinqClientFileVersion = "2.60.10"; //Released in 2.60.10
 
