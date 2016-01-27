@@ -48,7 +48,10 @@ string CASSharePointTrademark = "CAS SharePoint Framework";
 string CASSharePointVersion = "2.61.5";
 string CASSharePointSetupVersion = "1.81.1";
 
-//CAS.SharePoint.Common
+//CAS.SharePoint.Common 
+// svn://svnserver.hq.cas.com.pl/Products/CAS.SharePoint.Common
+string CASSharePointCommonTagVersion = "2.50.5"; //Max +
+
 string CASSharePointCommonVersion = "1.70.39";
 string CASSharePointCommonLoaderVersion = "2.50.03";
 
