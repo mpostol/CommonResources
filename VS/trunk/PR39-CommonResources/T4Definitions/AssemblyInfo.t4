@@ -45,9 +45,8 @@ string CASSharePointProduct = "CAS SharePoint Framework";
 string CASSharePointTrademark = "CAS SharePoint Framework";
 
 //Vesrsion infirmation
-string SFSharePointAssemblyVersion = "2.61.03";
-string SFSharePointSetupAssemblyVersion = "1.81.00.*";
-string SFSharePointSetupAssemblyFileVersion = "1.81.00";
+string CASSharePointVersion = "2.61.5";
+string CASSharePointSetupVersion = "1.81.1";
 
 //CAS.SharePoint.Common
 string CASSharePointCommonVersion = "1.70.39";
