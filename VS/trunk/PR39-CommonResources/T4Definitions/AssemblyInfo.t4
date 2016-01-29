@@ -58,8 +58,7 @@ string CASSharePointCommonVersion = "1.70.39";
 string CASSharePointCommonLoaderVersion = "2.50.03";
 
 // SmartFactory Common Assembly (CAS.SmartFactory.CommonAssembly)
-string SmartFactoryCommonAssemblyVersion = "2.60.20.*";
-string SmartFactoryCommonAssemblyFileVersion = "2.60.20";
+string CASSmartFactoryCommonAssemblyVersion = "2.60.21";
 
 //Smart Factory (SF)
 //PR42-SmartFactory
