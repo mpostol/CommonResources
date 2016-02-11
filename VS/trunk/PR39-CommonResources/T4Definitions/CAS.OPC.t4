@@ -36,6 +36,11 @@ string DPDiagnosticAssemblyFileVersion = "2.00.01";
 
 //CommServer Classic
 
+//CAS.CommServer.DA.Configuration - common server and client configuration access library
+string CASCommServerDAConfigurationProduct = "CommServer DA";
+string CASCommServerDAConfigurationVersion = "1.00.00";
+string CASCommServerDAConfigurationPrerelease = "-Alpha";
+
 //CommServer UA
 
 //CAS.UA.Common  UA common library
@@ -75,11 +80,17 @@ string CASUASDKServerConfigurationBaseAssemblyVersion = "1.00.00";
 //CAS.CommServer
 //CAS.CommServer.DA
 //CAS.CommServer.DA.Viewer
+//CAS.CommServer.DA.Configuration - common server and client configuration access library
 //CAS.CommServer.UA
 //CAS.CommServer.UA.ModelDesigner
 //CAS.CommServer.UA.SDKServerConfiguration
 //CAS.CommServer.UA.Server
 //CAS.CommServer.UA.Viewer
 //CAS.CommServer.UA.XML
+
+//Note: 
+//Alpha, Bravo, Charlie, Delta, Echo, Foxtrot, Golf, Hotel, India, Juliet, 
+//Kilo, Lima, Mike, November, Oscar, Papa, Quebec, Romeo, Sierra, Tango,
+//Uniform, Victor, Whiskey, X-Ray, Yankee, Zulu 
 
 #>
