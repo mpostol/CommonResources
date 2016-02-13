@@ -52,8 +52,8 @@ string CASUAMDProductName = "CAS OPC UA Address Space Model Designer";
 string CASUAMDVersion = "3.20.0";
 
 // CAS.CommServer.UA.ConfigurationEditor
-string CASUAServerServerConfigurationVersion = "3.20.1";
-string CASUAServerServerConfigurationPreRelease = "Alpha";
+string CASCommServerUAConfigurationEditorVersion = "3.20.1";
+string CASCommServerUAConfigurationEditorPreRelease = "-Alpha";
 string CASCommServerUAConfigurationEditorProduct = "CommServer UA ConfigurationEditor ServerConfiguration";
 
 
