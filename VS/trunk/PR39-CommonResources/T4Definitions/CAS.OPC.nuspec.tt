@@ -10,7 +10,7 @@
     <owners><#=Owner#></owners>
     <projectUrl>http://www.commsvr.com/</projectUrl>
 	  <licenseUrl>http://www.cas.internetdsl.pl/commserver/P_DowloadCenter/Lic-09000401EN_License_Agreement.pdf</licenseUrl>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <developmentDependency>false</developmentDependency>
     <description>
 	    description must be added
