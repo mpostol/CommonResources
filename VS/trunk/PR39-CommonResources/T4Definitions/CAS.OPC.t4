@@ -18,6 +18,12 @@ string CoreProductTrademark = "CAS Framework";
 string CoreProductVersion = "5.00.02.*";
 string CoreProductFileVersion = "5.00.02";
 
+//CAS.CodeProtect
+string CASCodeProtectProductName = "CAS.CodeProtect";
+string CASCodeProtectProductTrademark = "CAS.CodeProtect - CAS Framework";
+string CASCodeProtectProductVersion = "5.0.2";
+string CASCodeProtectProductPreRelease = "";
+
 //CAS.RealTime
 string CASRealTimeName = "CAS.RealTime";
 string CASRealTimeTitle = "CAS.RealTime" + "-RealTime library";
@@ -25,11 +31,12 @@ string CASRealTimeTrademark = "CAS.RealTime" + "-CAS Framework";
 string CASRealTimeVersion = "5.0.2";
 string CASRealTimePreRelease = "";
 
-//CAS.CodeProtect
-string CASCodeProtectProductName = "CAS.CodeProtect";
-string CASCodeProtectProductTrademark = "CAS.CodeProtect - CAS Framework";
-string CASCodeProtectProductVersion = "5.0.2";
-string CASCodeProtectProductPreRelease = "";
+//CAS.Windows.Forms
+string CASWindowsFormsName = "CAS.Windows.Forms";
+string CASWindowsFormsTitle = "CAS.Windows.Forms" + "-Forms Extension";
+string CASWindowsFormsTrademark = "CAS.Windows.Forms" + "-CAS Framework";
+string CASWindowsFormsVersion = "5.0.2";
+string CASWindowsFormsPreRelease = "";
 
 //CommServer
 string AssemblyProduct = "CAS CommServer Family";
