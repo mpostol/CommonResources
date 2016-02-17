@@ -59,7 +59,7 @@ string DPDiagnosticAssemblyFileVersion = "2.00.01";
 //CAS.CommServer.DA.Configuration - common server and client configuration access library
 string CASCommServerDAConfigurationProduct = "CommServer DA";
 string CASCommServerDAConfigurationVersion = "1.00.00";
-string CASCommServerDAConfigurationPrerelease = "-Alpha";
+string CASCommServerDAConfigurationPrerelease = "-Bravo";
 
 //CommServer UA
 
