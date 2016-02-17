@@ -54,7 +54,7 @@ string DPPAssemblyFileVersion = "3.80.01";
 string DPDiagnosticAssemblyVersion = "2.00.01.*";
 string DPDiagnosticAssemblyFileVersion = "2.00.01";
 
-//CommServer Classic
+//CommServer.DA
 
 //CAS.CommServer.DA.Configuration - common server and client configuration access library
 string CASCommServerDAConfigurationProduct = "CommServer DA";
@@ -66,6 +66,12 @@ string CASCommServerDAClientConfigurationProduct = "CAS.CommServer.DA.Client.Con
 string CASCommServerDAClientConfigurationTitle = "CAS.CommServer.DA.Client.Configuration - DataPorter Configuration Management";
 string CASCommServerDAClientConfigurationVersion = "3.11.0";
 string CASCommServerDAClientConfigurationPrerelease = "";
+
+//CAS.CommServer.DA.Server.Configuration
+string CASCommServerDAServerConfigurationProduct = "CAS.CommServer.DA.Server.Configuration";
+string CASCommServerDAServerConfigurationTitle = "CAS.CommServer.DA.Server.Configuration - CommServer Configuration Management";
+string CASCommServerDAServerConfigurationVersion = "4.1.0";
+string CASCommServerDAServerConfigurationPrerelease = "";
 
 //CommServer UA
 
