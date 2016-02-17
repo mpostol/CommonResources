@@ -61,6 +61,12 @@ string CASCommServerDAConfigurationProduct = "CommServer DA";
 string CASCommServerDAConfigurationVersion = "1.00.00";
 string CASCommServerDAConfigurationPrerelease = "-Bravo";
 
+//CAS.CommServer.DA.Client.Configuration
+string CASCommServerDAClientConfigurationProduct = "CAS.CommServer.DA.Client.Configuration";
+string CASCommServerDAClientConfigurationTitle = "CAS.CommServer.DA.Client.Configuration - DataPoter Configuration Management";
+string CASCommServerDAClientConfigurationVersion = "3.11.0";
+string CASCommServerDAClientConfigurationPrerelease = "";
+
 //CommServer UA
 
 //CAS.UA.Common  UA common library
