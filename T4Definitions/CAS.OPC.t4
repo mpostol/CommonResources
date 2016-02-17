@@ -84,11 +84,6 @@ string CASUAServerVersion = "1.00.33";
 // Model Compiler Common
 string CSUAMCCVersion = "1.02.26";
 
-
-//OPCUA_SDK
-string OPCUASDKProductName = "CAS.Opc.Ua.Core";
-string OPCUASDKAssemblyVersion = "1.01.326";
-
 //CAS.UA.IServerConfiguration
 string OPCUAIServerConfigurationProductName = "CAS Address Space Model Designer";
 string OPCUAIServerConfigurationAssemblyVersion = "1.00.00";
@@ -96,6 +91,19 @@ string OPCUAIServerConfigurationAssemblyVersion = "1.00.00";
 //CAS.UA.SDK.ServerConfigurationBase in CAS.UASDKServerConfiguration
 string CASUASDKServerConfigurationBaseProductName = "CAS Address Space Model Designer SDK";
 string CASUASDKServerConfigurationBaseAssemblyVersion = "1.00.00";
+
+//OPC
+
+//OPC.DA.SDK.Core
+string OPCDASDKCoreName = "OPC.DA.SDK.Core";
+string OPCDASDKCoreTitle = "OPC.DA.SDK.Core" + "-OPC Foundation .NET API";
+string OPCDASDKCoreTrademark = "OPC.DA.SDK.Core" + "-CommServer.DA ";
+string OPCDASDKCoreVersion = "2.00.108";
+string OPCDASDKCorePreRelease = "";
+
+//OPC.UA.SDK
+string OPCUASDKProductName = "CAS.Opc.Ua.Core";
+string OPCUASDKAssemblyVersion = "1.01.326";
 
 //____________________________________
 //New Namespaces organization
