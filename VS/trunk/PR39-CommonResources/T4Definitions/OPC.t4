@@ -1,0 +1,24 @@
+﻿<#+
+//Common
+string AssemblyCopyright = "Copyright (c) 2000-2016 CAS LODZ POLAND";
+string AssemblyCompany = "CAS";
+string Url = "www.cas.eu";
+string Email = "techsupp@cas.eu";
+string Phone = "+48 (42) 686 25 47";
+string Owner = "commsvr.com";
+
+//OPC.UA.SDK.Core
+string OPCUASDKCoreCoreName = "OPC.UA.SDK.Core";
+string OPCUASDKCoreCoreTitle = "OPC.UA.SDK.Core" + "-OPC Foundation .NET API";
+string OPCUASDKCoreCoreTrademark = "OPC.UA.SDK.Core" + "-CommServer.UA";
+string OPCUASDKCoreCoreVersion = "1.01.326";
+string OPCUASDKCoreCorePreRelease = "";
+
+
+
+//Note: 
+//Alpha, Bravo, Charlie, Delta, Echo, Foxtrot, Golf, Hotel, India, Juliet, 
+//Kilo, Lima, Mike, November, Oscar, Papa, Quebec, Romeo, Sierra, Tango,
+//Uniform, Victor, Whiskey, X-Ray, Yankee, Zulu 
+
+#>
