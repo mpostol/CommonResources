@@ -69,11 +69,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>AssemblyInfo.tt</DependentUpon>
     </Compile>
-    <Compile Include="OPC1.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>OPC.t4</DependentUpon>
-    </Compile>
     <None Include="CAS.OPC.AssemblyInfo.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -84,10 +79,7 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="OPC.t4">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>OPC1.cs</LastGenOutput>
-    </None>
+    <None Include="OPC.t4"/>
     <Content Include="SharePoint.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>SharePoint.nuspec</LastGenOutput>
