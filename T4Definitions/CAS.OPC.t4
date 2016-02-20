@@ -85,7 +85,7 @@ string CASUAMDVersion = "3.20.0";
 
 // CAS.CommServer.UA.ConfigurationEditor
 string CASCommServerUAConfigurationEditorVersion = "3.20.1";
-string CASCommServerUAConfigurationEditorPreRelease = "-Charlie";
+string CASCommServerUAConfigurationEditorPreRelease = "-Delta";
 string CASCommServerUAConfigurationEditorProduct = "CommServer UA ConfigurationEditor ServerConfiguration";
 
 
