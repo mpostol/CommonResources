@@ -40,6 +40,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="INotifyPropertyChangedBase.prism.snippet">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="TestClass.cs" />
   </ItemGroup>
   <ItemGroup>
