@@ -1,4 +1,4 @@
-﻿<#+
+<#+
 //Common
 string AssemblyCopyright = "Copyright (c) 2000-2016 CAS LODZ POLAND";
 string AssemblyCompany = "CAS";
@@ -88,6 +88,10 @@ string CASCommServerUAConfigurationEditorVersion = "3.20.1";
 string CASCommServerUAConfigurationEditorPreRelease = "-Delta";
 string CASCommServerUAConfigurationEditorProduct = "CommServer UA ConfigurationEditor ServerConfiguration";
 
+// CAS.CommServer.UA.OOI
+string CASCommServerUAOOIVersion = "1.0.0";
+string CASCommServerUAOOIPreRelease = "-Alpha";
+string CASCommServerUAOOIProduct = "CAS.CommServer.UA.OOI.ConfigurationEditor";
 
 // CAS.UA.Server
 string CASUAServerProduct = "CAS CommServerUA Family";
