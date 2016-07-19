@@ -54,7 +54,10 @@ string DPPAssemblyFileVersion = "3.80.01";
 string DPDiagnosticAssemblyVersion = "2.00.01.*";
 string DPDiagnosticAssemblyFileVersion = "2.00.01";
 
-//CommServer.DA
+//CAS.CommServer - common part of all CommServers products.
+string CASCommServer_ProductVersion = "5.01.00";
+
+//CAS.CommServer.DA
 
 //CAS.CommServer.DA.Configuration - common server and client configuration access library
 string CASCommServerDAConfigurationProduct = "CommServer DA";
