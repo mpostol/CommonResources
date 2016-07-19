@@ -65,9 +65,9 @@ string CASCommServerDAConfigurationVersion = "1.00.00";
 string CASCommServerDAConfigurationPrerelease = "-Bravo";
 
 //CAS.CommServer.DA.Client.Configuration
-string CASCommServerDAClientConfigurationProduct = "CAS.CommServer.DA.Client.Configuration";
-string CASCommServerDAClientConfigurationTitle = "CAS.CommServer.DA.Client.Configuration - DataPorter Configuration Management";
-string CASCommServerDAClientConfigurationVersion = "3.11.0";
+string CASCommServerDAClientConfigurationProduct = "CAS.CommServer.DAClientConfiguration";
+string CASCommServerDAClientConfigurationTitle = "OPC Classic Client Configuration Library";
+string CASCommServerDAClientConfigurationVersion = "3.12.0";
 string CASCommServerDAClientConfigurationPrerelease = "";
 
 //CAS.CommServer.DA.Server.Configuration

@@ -48,6 +48,7 @@
     <None Include="CAS.OPC.nuspec.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>CAS.OPC.nuspec.nuspec</LastGenOutput>
+      <SubType>Designer</SubType>
     </None>
     <None Include="CAS.OPC.t4" />
     <None Include="CAS.OPC.AssemblyInfo.tt">
@@ -79,7 +80,7 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="OPC.t4"/>
+    <None Include="OPC.t4" />
     <Content Include="SharePoint.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>SharePoint.nuspec</LastGenOutput>
