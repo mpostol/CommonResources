@@ -16,12 +16,12 @@
 using System.Reflection;
 using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("<Define Assembly Title>")]
-[assembly: AssemblyDescription("Default Product Name: <Define Assembly Title>")]
+[assembly: AssemblyDescription("CAS CommServer Family: <Define Assembly Title>")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("CAS")]
-[assembly: AssemblyProduct("Default Product Name")]
+[assembly: AssemblyProduct("CAS CommServer Family")]
 [assembly: AssemblyCopyright("Copyright (c) 2000-2016 CAS LODZ POLAND")]
-[assembly: AssemblyTrademark("Default Product Trademark>")]
+[assembly: AssemblyTrademark("CommServer")]
 [assembly: AssemblyCulture("")]
 [assembly: Guid("<GUID>")]
 [assembly: AssemblyVersion("1.00.00.*")]
