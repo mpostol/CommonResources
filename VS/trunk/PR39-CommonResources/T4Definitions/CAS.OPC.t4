@@ -8,8 +8,8 @@ string Phone = "+48 (42) 686 25 47";
 string Owner = "commsvr.com";
 
 //Default product description
-string DefaultProductName = "Default Product Name";
-string DefaultProductTrademark = "Default Product Trademark>";
+string DefaultProductName = "CAS CommServer Family";
+string DefaultProductTrademark = "CommServer";
 string DefaultProductVersion = "1.00.00";
 
 //PR36-CAS_MAIN_CORE_PCKG
@@ -110,11 +110,10 @@ string CASUASDKServerConfigurationBaseAssemblyVersion = "1.00.00";
 
 //OPC
 
-//OPC.DA.SDK.Core
-string OPCDASDKCoreName = "OPC.DA.SDK.Core";
-string OPCDASDKCoreTitle = "OPC.DA.SDK.Core" + "-OPC Foundation .NET API";
-string OPCDASDKCoreTrademark = "OPC.DA.SDK.Core" + "-CommServer.DA ";
-string OPCDASDKCoreVersion = "2.00.108";
+//CAS.CommServer.OPCClassic.SDK (previous: OPC.DA.SDK.Core)
+string OPCDASDKCoreName = "CAS.CommServer.OPCClassic.SDK";
+string OPCDASDKCoreTitle = "OPC Classic .NET API based on OPC Foundation SDK 2.01.106";
+string OPCDASDKCoreVersion = "2.01.106";
 string OPCDASDKCorePreRelease = "";
 
 //____________________________________
@@ -123,6 +122,7 @@ string OPCDASDKCorePreRelease = "";
 //CAS.CommServer.DA
 //CAS.CommServer.DA.Viewer
 //CAS.CommServer.DA.Configuration - common server and client configuration access library
+//CAS.CommServer.OPCClassic.SDK
 //CAS.CommServer.UA
 //CAS.CommServer.UA.ModelDesigner
 //CAS.CommServer.UA.SDKServerConfiguration
