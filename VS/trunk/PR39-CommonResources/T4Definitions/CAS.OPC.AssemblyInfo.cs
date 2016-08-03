@@ -14,7 +14,9 @@
 //_______________________________________________________________
 
 using System.Reflection;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
+
 [assembly: AssemblyTitle("<Define Assembly Title>")]
 [assembly: AssemblyDescription("CAS CommServer Family: <Define Assembly Title>")]
 [assembly: AssemblyConfiguration("")]
