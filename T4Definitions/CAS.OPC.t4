@@ -80,6 +80,11 @@ string CASCommServerDAServerConfigurationTitle = "CAS.CommServer.DA.Server.Confi
 string CASCommServerDAServerConfigurationVersion = "4.1.0";
 string CASCommServerDAServerConfigurationPrerelease = "";
 
+//CAS.CommServer.DA.Viewer
+string CASCommServerDAViewerVersion = "3.10.03";
+string CASCommServerDAViewerPrerelease = "";
+
+
 //CommServer UA
 
 //CAS.UA.Common  UA common library
