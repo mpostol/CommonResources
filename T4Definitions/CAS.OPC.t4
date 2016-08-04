@@ -81,8 +81,8 @@ string CASCommServerDAServerConfigurationVersion = "4.1.0";
 string CASCommServerDAServerConfigurationPrerelease = "";
 
 //CAS.CommServer.DA.Viewer
-string CASCommServerDAViewerVersion = "3.10.03";
-string CASCommServerDAViewerPrerelease = "";
+string CASCommServerDAViewerVersion = "3.10.04";
+string CASCommServerDAViewerPrerelease = "-Alpha";
 
 
 //CommServer UA
