@@ -59,9 +59,9 @@ string CASCommServer_ProductVersion = "5.01.00";
 
 //CAS.CommServer.DA
 
-//CAS.CommSvr.DA.Client.Operations - Client Operations Library
-string CASCommSvrDAClientOperationsVersion = "2.00.13";
-string CASCommSvrDAClientOperationsPrerelease = "";
+//CAS.CommSvr.DA.Client - Client Operations Library
+string CASCommSvrDAClientVersion = "2.00.14";
+string CASCommSvrDAClientPrerelease = "-Alpha";
 
 //CAS.CommServer.DA.Configuration - common server and client configuration access library
 string CASCommServerDAConfigurationProduct = "CommServer DA";
