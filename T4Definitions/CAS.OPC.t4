@@ -94,6 +94,7 @@ string CASCommServerDAViewerPrerelease = "-Bravo";
 //CAS.UA.Common  UA common library
 string CASUACommonProduct = "CAS.UA.Common";
 string CASUACommonVersion = "3.00.00";
+string CASUACommonPreRelease = "-Alpha";
 
 // CAS.UA.Model.Designer
 string CASUAMDProductName = "CAS OPC UA Address Space Model Designer";
