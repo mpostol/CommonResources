@@ -1,6 +1,6 @@
 ﻿//_______________________________________________________________
-//  Title   :  Assembly info for: <Define Assembly Title>
-//  System  : Microsoft VisualStudio 2013 / C#
+//  Title   : Assembly info for: <Define Assembly Title>
+//  System  : Microsoft VisualStudio 2015 / C#
 //  $LastChangedDate$
 //  $Rev$
 //  $LastChangedBy$

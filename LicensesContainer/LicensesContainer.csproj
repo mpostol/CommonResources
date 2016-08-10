@@ -152,7 +152,7 @@
     <EmbeddedResource Include="UA.ModelDesignerTP\CAS.License.ASMD.PE.DEMO.__DefaultDemo__.lic" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="CommServer.DA.DataPorter.Service.OPCViewer\CAS.License.__DefaultDemo__.lic" />
+    <EmbeddedResource Include="CommServer.DA.DataPorter.OPCViewer\CAS.License.__DefaultDemo__.lic" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
