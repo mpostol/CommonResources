@@ -81,8 +81,8 @@ string CASCommServerDADataPorterPrerelease = "";
 //CAS.CommServer.DA.Server.Configuration
 string CASCommServerDAServerConfigurationProduct = "CAS.CommServer.DA.Server.Configuration";
 string CASCommServerDAServerConfigurationTitle = "CAS.CommServer.DA.Server.Configuration - CommServer Configuration Management";
-string CASCommServerDAServerConfigurationVersion = "4.1.0";
-string CASCommServerDAServerConfigurationPrerelease = "";
+string CASCommServerDAServerConfigurationVersion = "4.1.2";
+string CASCommServerDAServerConfigurationPrerelease = "-Alpha";
 
 //CAS.CommServer.DA.Viewer
 string CASCommServerDAViewerVersion = "3.10.06";
