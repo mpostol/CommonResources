@@ -93,7 +93,7 @@ string CASCommServerDAViewerPrerelease = "-Bravo";
 
 //CAS.UA.Common  UA common library
 string CASUACommonProduct = "CAS.UA.Common";
-string CASUACommonVersion = "3.00.00";
+string CASUACommonVersion = "3.00.02";
 string CASUACommonPreRelease = "-Alpha";
 
 // CAS.UA.Model.Designer
