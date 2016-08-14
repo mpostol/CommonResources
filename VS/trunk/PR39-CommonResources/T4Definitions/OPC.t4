@@ -34,8 +34,8 @@ string OPCUASDKModelCompilerCoreVersion = "1.01.334.6";
 string OPCUASDKModelCompilerCommonName = "OPC.UA.SDK.ModelCompiler.Common";
 string OPCUASDKModelCompilerCommonTitle = "OPC.UA.SDK.ModelCompiler.Common" + "-OPC Foundation .NET API";
 string OPCUASDKModelCompilerCommonTrademark = "OPC.UA.SDK.ModelCompiler.Common" + "-CommServer.UA";
-string OPCUASDKModelCompilerCommonVersion = "1.02.27";
-string OPCUASDKModelCompilerCommonPreRelease = "";
+string OPCUASDKModelCompilerCommonVersion = "1.02.270";
+string OPCUASDKModelCompilerCommonPreRelease = "-Alpha";
 
 //Note: 
 //Alpha, Bravo, Charlie, Delta, Echo, Foxtrot, Golf, Hotel, India, Juliet, 
