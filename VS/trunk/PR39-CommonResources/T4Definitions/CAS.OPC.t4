@@ -24,6 +24,10 @@ string CASCodeProtectProductTrademark = "CAS.CodeProtect - CAS Framework";
 string CASCodeProtectProductVersion = "5.0.2";
 string CASCodeProtectProductPreRelease = "";
 
+//CAS.MAML.HelpTopics.Content
+string CASMAMLHelpTopicsContentVersion = "1.0.3";
+string CASMAMLHelpTopicsContentPreRelease = "";
+
 //CAS.RealTime
 string CASRealTimeName = "CAS.RealTime";
 string CASRealTimeTitle = "CAS.RealTime" + "-RealTime library";
