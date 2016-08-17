@@ -48,7 +48,8 @@ string AssemblyTrademark = "CommServer";
 
 //PR37-CAS_LIB_PCKG - CommServer Core
 string CLibCoreProductVersion = "5.00.00.*";
-string CLibCoreProductFileVersion = "5.00.00";
+string CLibCoreProductFileVersion = "5.00.0";
+
 
 //CommServer DataProviderPackage
 string DPPAssemblyVersion = "3.80.01.*";
@@ -59,7 +60,11 @@ string DPDiagnosticAssemblyVersion = "2.00.01.*";
 string DPDiagnosticAssemblyFileVersion = "2.00.01";
 
 //CAS.CommServer - common part of all CommServers products.
-string CASCommServer_ProductVersion = "5.01.00";
+string CASCommServer_ProductVersion = "5.01.02";
+string CASCommServer_Prerelease = "-Alpha";
+//CAS.CommServer.DA.Client.Configuration
+string CASCommServerDAClientConfigurationProduct = "CAS.CommServer.DAClientConfiguration";
+string CASCommServerDAClientConfigurationTitle = "OPC Classic Client Configuration Library";
 
 //CAS.CommServer.DA
 
@@ -71,12 +76,6 @@ string CASCommSvrDAClientPrerelease = "-Alpha";
 string CASCommServerDAConfigurationProduct = "CommServer DA";
 string CASCommServerDAConfigurationVersion = "1.00.00";
 string CASCommServerDAConfigurationPrerelease = "-Bravo";
-
-//CAS.CommServer.DA.Client.Configuration
-string CASCommServerDAClientConfigurationProduct = "CAS.CommServer.DAClientConfiguration";
-string CASCommServerDAClientConfigurationTitle = "OPC Classic Client Configuration Library";
-string CASCommServerDAClientConfigurationVersion = "3.12.1";
-string CASCommServerDAClientConfigurationPrerelease = "";
 
 //CAS.CommSvr.DA.DataPorter
 string CASCommServerDADataPorterVersion = "2.00.12";
