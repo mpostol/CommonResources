@@ -68,7 +68,11 @@ string CASCommServerDAClientConfigurationTitle = "OPC Classic Client Configurati
 
 //CAS.CommServer.DA
 
-//CAS.CommSvr.DA.Client - Client Operations Library
+//CAS.CommServer.DA.ItemDescriber
+string CASCommServerDAItemDescriberVersion = "1.00.2";
+string CASCommServerDAItemDescriberPrerelease = "-Alpha";
+
+//CAS.CommServer.DA.Client - Client Operations Library
 string CASCommSvrDAClientVersion = "2.00.14";
 string CASCommSvrDAClientPrerelease = "-Alpha";
 
