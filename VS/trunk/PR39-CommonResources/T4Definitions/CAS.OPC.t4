@@ -62,11 +62,16 @@ string DPDiagnosticAssemblyFileVersion = "2.00.01";
 //CAS.CommServer - common part of all CommServers products.
 string CASCommServer_ProductVersion = "5.01.02";
 string CASCommServer_Prerelease = "-Alpha";
+
+//CAS.CommServer.ProtocolHub
+string CASCommServerProtocolHubVersion = "4.00.22";
+string CASCommServerProtocolHubPrerelease = "-Alpha";
+
+//CAS.CommServer.DA
+
 //CAS.CommServer.DA.Client.Configuration
 string CASCommServerDAClientConfigurationProduct = "CAS.CommServer.DAClientConfiguration";
 string CASCommServerDAClientConfigurationTitle = "OPC Classic Client Configuration Library";
-
-//CAS.CommServer.DA
 
 //CAS.CommServer.DA.ItemDescriber
 string CASCommServerDAItemDescriberVersion = "1.00.2";
@@ -81,7 +86,7 @@ string CASCommServerDAConfigurationProduct = "CommServer DA";
 string CASCommServerDAConfigurationVersion = "1.00.00";
 string CASCommServerDAConfigurationPrerelease = "-Bravo";
 
-//CAS.CommSvr.DA.DataPorter
+//CAS.CommServer.DA.DataPorter
 string CASCommServerDADataPorterVersion = "2.00.12";
 string CASCommServerDADataPorterPrerelease = "";
 
@@ -90,6 +95,10 @@ string CASCommServerDAServerConfigurationProduct = "CAS.CommServer.DA.Server.Con
 string CASCommServerDAServerConfigurationTitle = "CAS.CommServer.DA.Server.Configuration - CommServer Configuration Management";
 string CASCommServerDAServerConfigurationVersion = "4.1.2";
 string CASCommServerDAServerConfigurationPrerelease = "-Alpha";
+
+//"CAS.CommServer.DA.Server.NETServer
+string CASCommServerDAServerNETServerVersion = "4.1.2";
+string CASCommServerDAServerNETServerPrerelease = "-Alpha";
 
 //CAS.CommServer.DA.Viewer
 string CASCommServerDAViewerVersion = "3.10.06";
