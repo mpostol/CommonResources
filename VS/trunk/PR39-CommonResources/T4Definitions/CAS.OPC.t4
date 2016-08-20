@@ -82,7 +82,7 @@ string CASCommServerDAItemDescriberPrerelease = "-Charlie";
 
 //CAS.CommServer.DA.Client - Client Operations Library
 string CASCommSvrDAClientVersion = "2.00.14";
-string CASCommSvrDAClientPrerelease = "-Bravo";
+string CASCommSvrDAClientPrerelease = "-Charlie";
 
 //CAS.CommServer.DA.Configuration - common server and client configuration access library
 string CASCommServerDAConfigurationProduct = "CommServer DA";
