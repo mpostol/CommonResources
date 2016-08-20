@@ -63,15 +63,18 @@ string DPDiagnosticAssemblyFileVersion = "2.00.01";
 string CASCommServer_ProductVersion = "5.01.02";
 string CASCommServer_Prerelease = "-Alpha";
 
+//CAS.CommServer.DAClientConfiguration
+string CASCommServerDAClientConfigurationVersion = "5.01.02";
+string CASCommServerDAClientConfigurationPrerelease = "-Bravo";
+string CASCommServerDAClientConfigurationProduct = "CAS.CommServer.DAClientConfiguration";
+string CASCommServerDAClientConfigurationTitle = "OPC Classic Client Configuration Library";
+
+
 //CAS.CommServer.ProtocolHub
 string CASCommServerProtocolHubVersion = "4.00.22";
 string CASCommServerProtocolHubPrerelease = "-Alpha";
 
 //CAS.CommServer.DA
-
-//CAS.CommServer.DA.Client.Configuration
-string CASCommServerDAClientConfigurationProduct = "CAS.CommServer.DAClientConfiguration";
-string CASCommServerDAClientConfigurationTitle = "OPC Classic Client Configuration Library";
 
 //CAS.CommServer.DA.ItemDescriber
 string CASCommServerDAItemDescriberVersion = "1.00.2";
