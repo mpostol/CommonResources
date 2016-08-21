@@ -78,7 +78,7 @@ string CASCommServerProtocolHubPrerelease = "-Alpha";
 
 //CAS.CommServer.DA.ItemDescriber
 string CASCommServerDAItemDescriberVersion = "1.00.2";
-string CASCommServerDAItemDescriberPrerelease = "-Charlie";
+string CASCommServerDAItemDescriberPrerelease = "-Delta";
 
 //CAS.CommServer.DA.Client - Client Operations Library
 string CASCommSvrDAClientVersion = "2.00.14";
