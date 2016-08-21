@@ -105,7 +105,9 @@
   <ItemGroup>
     <EmbeddedResource Include="DataPorter\CAS.License.CDP-PE-10K.__db4a343c__.lic" />
     <EmbeddedResource Include="DataPorter\CAS.License.CDP-PE-2K.__e32b50a6__.lic" />
-    <EmbeddedResource Include="DataPorter\CAS.License.CDP-PE-60K.__cfd56735__.lic" />
+    <EmbeddedResource Include="DataPorter\CAS.License.CDP-PE-60K.__cfd56735__.lic">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="DataPorter\CAS.License.CDP-SE-10K.__d5cface1__.lic" />
     <EmbeddedResource Include="DataPorter\CAS.License.CDP-SE-2K.__f307ac0d__.lic" />
     <EmbeddedResource Include="DataPorter\CAS.License.CDP-SE-500.__f9d9cd42__.lic" />
