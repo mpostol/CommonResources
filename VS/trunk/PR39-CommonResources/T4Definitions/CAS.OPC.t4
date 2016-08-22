@@ -65,7 +65,7 @@ string CASCommServer_Prerelease = "-Bravo";
 
 //CAS.CommServer.DAClientConfiguration
 string CASCommServerDAClientConfigurationVersion = "5.01.02";
-string CASCommServerDAClientConfigurationPrerelease = "-Bravo";
+string CASCommServerDAClientConfigurationPrerelease = "-Charlie";
 string CASCommServerDAClientConfigurationProduct = "CAS.CommServer.DAClientConfiguration";
 string CASCommServerDAClientConfigurationTitle = "OPC Classic Client Configuration Library";
 
