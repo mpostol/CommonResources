@@ -105,7 +105,7 @@ string CASCommServerDAServerNETServerPrerelease = "-Alpha";
 
 //CAS.CommServer.DA.Viewer
 string CASCommServerDAViewerVersion = "3.10.06";
-string CASCommServerDAViewerPrerelease = "-Delta";
+string CASCommServerDAViewerPrerelease = "-Echo";
 
 
 //CommServer UA
