@@ -61,7 +61,7 @@ string DPDiagnosticAssemblyFileVersion = "2.00.01";
 
 //CAS.CommServer - common part of all CommServers products.
 string CASCommServer_ProductVersion = "5.01.02";
-string CASCommServer_Prerelease = "-Bravo";
+string CASCommServer_Prerelease = "-Charlie";
 
 //CAS.CommServer.DAClientConfiguration
 string CASCommServerDAClientConfigurationVersion = "5.01.02";
