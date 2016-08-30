@@ -51,14 +51,6 @@ string CLibCoreProductVersion = "5.00.00.*";
 string CLibCoreProductFileVersion = "5.00.0";
 
 
-//CommServer DataProviderPackage
-string DPPAssemblyVersion = "3.80.01.*";
-string DPPAssemblyFileVersion = "3.80.01";
-
-//CommServer DataProviderDiagnostic
-string DPDiagnosticAssemblyVersion = "2.00.01.*";
-string DPDiagnosticAssemblyFileVersion = "2.00.01";
-
 //CAS.CommServer - common part of all CommServers products.
 string CASCommServer_ProductVersion = "5.01.02";
 string CASCommServer_Prerelease = "-Charlie";
@@ -69,6 +61,9 @@ string CASCommServerDAClientConfigurationPrerelease = "-Charlie";
 string CASCommServerDAClientConfigurationProduct = "CAS.CommServer.DAClientConfiguration";
 string CASCommServerDAClientConfigurationTitle = "OPC Classic Client Configuration Library";
 
+//CAS.CommServer.DataProvider.Package
+string CASCommServerDataProviderPackageVersion = "3.80.02";
+string CASCommServerDataProviderPackagePrerelase = "-Alpha";
 
 //CAS.CommServer.ProtocolHub
 string CASCommServerProtocolHubVersion = "4.00.22";
