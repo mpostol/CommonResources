@@ -86,7 +86,9 @@
     <EmbeddedResource Include="CommServer\CAS.License.CommServer.NetworkConfig.CS-PE-1K.__cc98a787__.lic" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="CommServer\CAS.License.CommServer.NetworkConfig.CS-PE-10K.__f8e7a5e1__.lic" />
+    <EmbeddedResource Include="CommServer\CAS.License.CommServer.NetworkConfig.CS-PE-10K.__f8e7a5e1__.lic">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="CommServer\CAS.License.CommServer.NetworkConfig.CS-PE-4K.__e75c7039__.lic" />
     <EmbeddedResource Include="CommServer\CAS.License.CommServer.NetworkConfig.CS-PE-60K.__cbbffd32__.lic" />
     <EmbeddedResource Include="CommServer\CAS.License.CommServer.NetworkConfig.CS-SE-1K.__ad6a7022__.lic" />
