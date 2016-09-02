@@ -116,7 +116,7 @@ string CASUAMDVersion = "3.20.1";
 
 // CAS.CommServer.UA.ConfigurationEditor
 string CASCommServerUAConfigurationEditorVersion = "3.20.1";
-string CASCommServerUAConfigurationEditorPreRelease = "-Foxtrot";
+string CASCommServerUAConfigurationEditorPreRelease = "-Golf";
 string CASCommServerUAConfigurationEditorProduct = "CommServer UA ConfigurationEditor ServerConfiguration";
 
 // CAS.CommServer.UA.OOI
