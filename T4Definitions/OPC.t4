@@ -11,14 +11,14 @@ string Phone = "+48 (42) 686 25 47";
 string Owner = "commsvr.com";
 
 //OPC.UA.SDK
-string OPCUASDKProductName = "CAS.Opc.Ua.Core";
+string OPCUASDKTitle = "CAS.Opc.Ua";
+string OPCUASDKVersion = "1.01.3262";
+string OPCUASDKPreRelease = "-Alpha";
 
 //OPC.UA.SDK.Core
 string OPCUASDKCoreCoreName = "OPC.UA.SDK.Core";
 string OPCUASDKCoreCoreTitle = "OPC.UA.SDK.Core" + "-OPC Foundation .NET API";
 string OPCUASDKCoreCoreTrademark = "OPC.UA.SDK.Core" + "-CommServer.UA";
-string OPCUASDKCoreCoreVersion = "1.01.326";
-string OPCUASDKCoreCorePreRelease = "";
 
 //OPC.UA.SDK.ModelCompiler
 string OPCUASDKModelCompilerName = "OPC.UA.SDK.ModelCompiler";
