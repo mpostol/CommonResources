@@ -13,7 +13,7 @@ string Owner = "commsvr.com";
 //OPC.UA.SDK
 string OPCUASDKTitle = "CAS.Opc.Ua";
 string OPCUASDKVersion = "1.01.3262";
-string OPCUASDKPreRelease = "-Alpha";
+string OPCUASDKPrerelease = "-Alpha";
 
 //OPC.UA.SDK.Core
 string OPCUASDKCoreCoreName = "OPC.UA.SDK.Core";
