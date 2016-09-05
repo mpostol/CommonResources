@@ -105,16 +105,16 @@ string CASCommServerDAViewerPrerelease = "-Echo";
 
 //CommServer UA
 
-//CAS.UA.Common  UA common library
+//CAS.CommServer.UA.Common  UA common library
 string CASUACommonProduct = "CAS.UA.Common";
 string CASUACommonVersion = "3.00.02";
-string CASUACommonPreRelease = "-Alpha";
+string CASUACommonPreRelease = "-Bravo";
 
-// CAS.UA.Model.Designer
+//CAS.UA.Model.Designer
 string CASUAMDProductName = "CAS OPC UA Address Space Model Designer";
 string CASUAMDVersion = "3.20.1";
 
-// CAS.CommServer.UA.ConfigurationEditor
+//CAS.CommServer.UA.ConfigurationEditor
 string CASCommServerUAConfigurationEditorVersion = "3.20.1";
 string CASCommServerUAConfigurationEditorPreRelease = "-Golf";
 string CASCommServerUAConfigurationEditorProduct = "CommServer UA ConfigurationEditor ServerConfiguration";
