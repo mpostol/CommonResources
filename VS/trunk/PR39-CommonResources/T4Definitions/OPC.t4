@@ -11,7 +11,7 @@ string Phone = "+48 (42) 686 25 47";
 string Owner = "commsvr.com";
 
 //OPC.UA.SDK
-string OPCUASDKTitle = "CAS.Opc.Ua";
+string OPCUASDKTitle = "OPC.UA.SDK";
 string OPCUASDKVersion = "1.01.3262";
 string OPCUASDKPrerelease = "-Alpha";
 
