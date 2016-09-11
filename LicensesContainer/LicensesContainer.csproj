@@ -77,7 +77,7 @@
     <EmbeddedResource Include="DPDiagnostics\CAS.License.__DefaultDemo__.lic" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="OPC.UA.Viewer\CAS.License.__DefaultDemo__.lic" />
+    <EmbeddedResource Include="CAS.CommServer.UA.Viewer.UserInterface\CAS.License.__DefaultDemo__.lic" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="DataPorter\CAS.License.__DefaultDemo__.lic" />
