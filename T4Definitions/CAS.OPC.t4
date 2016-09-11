@@ -102,6 +102,11 @@ string CASCommServerDAServerNETServerPrerelease = "-Alpha";
 string CASCommServerDAViewerVersion = "3.10.06";
 string CASCommServerDAViewerPrerelease = "-Echo";
 
+//CAS.CommServer.OPCClassic.SDK (previous: OPC.DA.SDK.Core)
+string OPCDASDKCoreName = "CAS.CommServer.OPCClassic.SDK";
+string OPCDASDKCoreTitle = "OPC Classic .NET API based on OPC Foundation SDK 2.01.106";
+string OPCDASDKCoreVersion = "2.01.106";
+string OPCDASDKCorePreRelease = "";
 
 //CommServer UA
 
@@ -124,9 +129,13 @@ string CASCommServerUAOOIVersion = "1.0.0";
 string CASCommServerUAOOIPreRelease = "-Alpha";
 string CASCommServerUAOOIProduct = "CAS.CommServer.UA.OOI.ConfigurationEditor";
 
-// CAS.UA.Server
+// CAS.UA.CommServer.Server
 string CASUAServerProduct = "CAS CommServerUA Family";
 string CASUAServerVersion = "1.00.33";
+
+// CAS.CommServer.UA.Viewer
+string CASCommServerUAViewerVersion = "1.00.12";
+string CASCommServerUAViewerPreRelease = "-Alpha";
 
 //CAS.UA.IServerConfiguration
 string OPCUAIServerConfigurationProductName = "CAS Address Space Model Designer";
@@ -136,13 +145,6 @@ string OPCUAIServerConfigurationAssemblyVersion = "1.00.00";
 string CASUASDKServerConfigurationBaseProductName = "CAS Address Space Model Designer SDK";
 string CASUASDKServerConfigurationBaseAssemblyVersion = "1.00.00";
 
-//OPC
-
-//CAS.CommServer.OPCClassic.SDK (previous: OPC.DA.SDK.Core)
-string OPCDASDKCoreName = "CAS.CommServer.OPCClassic.SDK";
-string OPCDASDKCoreTitle = "OPC Classic .NET API based on OPC Foundation SDK 2.01.106";
-string OPCDASDKCoreVersion = "2.01.106";
-string OPCDASDKCorePreRelease = "";
 
 //____________________________________
 //New Namespaces organization
