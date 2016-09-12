@@ -24,6 +24,10 @@ string CASCodeProtectProductTrademark = "CAS.CodeProtect - CAS Framework";
 string CASCodeProtectProductVersion = "5.0.2";
 string CASCodeProtectProductPreRelease = "";
 
+//CAS.Licenses
+string CASLicensesVersion = "2.00.00";
+string CASLicensesPreRelease = "";
+
 //CAS.MAML.HelpTopics.Content
 string CASMAMLHelpTopicsContentVersion = "1.0.3";
 string CASMAMLHelpTopicsContentPreRelease = "";
