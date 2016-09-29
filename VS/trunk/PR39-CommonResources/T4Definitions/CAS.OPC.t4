@@ -106,11 +106,11 @@ string CASCommServerDAServerNETServerPrerelease = "-Alpha";
 string CASCommServerDAViewerVersion = "3.10.06";
 string CASCommServerDAViewerPrerelease = "-Echo";
 
-//CAS.CommServer.OPCClassic.SDK (previous: OPC.DA.SDK.Core)
+//CAS.CommServer.OPCClassicSDK (previous: OPC.DA.SDK.Core)
 string OPCDASDKCoreName = "CAS.CommServer.OPCClassic.SDK";
 string OPCDASDKCoreTitle = "OPC Classic .NET API based on OPC Foundation SDK 2.01.106";
 string OPCDASDKCoreVersion = "2.01.1061";
-string OPCDASDKCorePreRelease = "-Alpha";
+string OPCDASDKCorePreRelease = "-Bravo";
 
 //CommServer UA
 
