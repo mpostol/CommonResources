@@ -77,7 +77,7 @@ string CASCommServerDataProviderPackagePrerelase = "-Alpha";
 
 //CAS.CommServer.ProtocolHub
 string CASCommServerProtocolHubVersion = "4.00.22";
-string CASCommServerProtocolHubPrerelease = "-Alpha";
+string CASCommServerProtocolHubPrerelease = "-Bravo";
 
 //CAS.CommServer.DA
 
