@@ -57,11 +57,11 @@ string CLibCoreProductFileVersion = "5.00.0";
 
 //CAS.CommServer - common part of all CommServers products.
 string CASCommServer_ProductVersion = "5.01.02";
-string CASCommServer_Prerelease = "-Charlie";
+string CASCommServer_Prerelease = "-Delta";
 
 //CAS.CommServer.DAClientConfiguration
 string CASCommServerDAClientConfigurationVersion = "5.01.02";
-string CASCommServerDAClientConfigurationPrerelease = "-Charlie";
+string CASCommServerDAClientConfigurationPrerelease = "-Delta";
 string CASCommServerDAClientConfigurationProduct = "CAS.CommServer.DAClientConfiguration";
 string CASCommServerDAClientConfigurationTitle = "OPC Classic Client Configuration Library";
 
