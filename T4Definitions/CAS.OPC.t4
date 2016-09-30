@@ -96,7 +96,7 @@ string CASCommServerDADataPorterPrerelease = "";
 string CASCommServerDAServerConfigurationProduct = "CAS.CommServer.DA.Server.Configuration";
 string CASCommServerDAServerConfigurationTitle = "CAS.CommServer.DA.Server.Configuration - CommServer Configuration Management";
 string CASCommServerDAServerConfigurationVersion = "4.1.2";
-string CASCommServerDAServerConfigurationPrerelease = "-Alpha";
+string CASCommServerDAServerConfigurationPrerelease = "-Bravo";
 
 //"CAS.CommServer.DA.Server.NETServer
 string CASCommServerDAServerNETServerVersion = "4.1.2";
