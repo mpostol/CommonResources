@@ -125,7 +125,7 @@ string CASUAMDVersion = "3.20.1";
 
 //CAS.CommServer.UA.ConfigurationEditor
 string CASCommServerUAConfigurationEditorVersion = "3.20.1";
-string CASCommServerUAConfigurationEditorPreRelease = "-Hotel";
+string CASCommServerUAConfigurationEditorPreRelease = "-India";
 string CASCommServerUAConfigurationEditorProduct = "CommServer UA ConfigurationEditor ServerConfiguration";
 
 // CAS.CommServer.UA.OOI
