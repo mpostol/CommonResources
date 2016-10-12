@@ -22,7 +22,7 @@ string CoreProductFileVersion = "5.00.02";
 string CASCodeProtectProductName = "CAS.CodeProtect";
 string CASCodeProtectProductTrademark = "CAS.CodeProtect - CAS Framework";
 string CASCodeProtectProductVersion = "6.0.0";
-string CASCodeProtectProductPreRelease = "-Alpha";
+string CASCodeProtectProductPreRelease = "-Charlie";
 
 //CAS.Licenses
 string CASLicensesVersion = "2.00.02";
