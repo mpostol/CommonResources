@@ -37,7 +37,7 @@ string CASRealTimeName = "CAS.RealTime";
 string CASRealTimeTitle = "CAS.RealTime" + "-RealTime library";
 string CASRealTimeTrademark = "CAS.RealTime" + "-CAS Framework";
 string CASRealTimeVersion = "5.0.4";
-string CASRealTimePreRelease = "-Alpha";
+string CASRealTimePreRelease = "-Charlie";
 
 //CAS.Windows.Forms
 string CASWindowsFormsName = "CAS.Windows.Forms";
