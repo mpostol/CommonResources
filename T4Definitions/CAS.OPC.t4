@@ -43,8 +43,8 @@ string CASRealTimePreRelease = "-Charlie";
 string CASWindowsFormsName = "CAS.Windows.Forms";
 string CASWindowsFormsTitle = "CAS Windows Forms Controls Library";
 string CASWindowsFormsTrademark = "CAS Framework";
-string CASWindowsFormsVersion = "5.0.6";
-string CASWindowsFormsPreRelease = "-Charlie";
+string CASWindowsFormsVersion = "6.0.0";
+string CASWindowsFormsPreRelease = "-Delta";
 
 //CommServer
 string AssemblyProduct = "CAS CommServer Family";
