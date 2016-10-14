@@ -57,11 +57,11 @@ string CLibCoreProductFileVersion = "5.00.0";
 
 //CAS.CommServer - common part of all CommServers products.
 string CASCommServer_ProductVersion = "5.01.02";
-string CASCommServer_Prerelease = "-Delta";
+string CASCommServer_Prerelease = "-Echo";
 
 //CAS.CommServer.DAClientConfiguration
 string CASCommServerDAClientConfigurationVersion = "5.01.02";
-string CASCommServerDAClientConfigurationPrerelease = "-Delta";
+string CASCommServerDAClientConfigurationPrerelease = "-Echo";
 string CASCommServerDAClientConfigurationProduct = "CAS.CommServer.DAClientConfiguration";
 string CASCommServerDAClientConfigurationTitle = "OPC Classic Client Configuration Library";
 
@@ -69,7 +69,7 @@ string CASCommServerDAClientConfigurationTitle = "OPC Classic Client Configurati
 string CASCommServerDAServerConfigurationProduct = "CAS.CommServer.DAServerConfiguration";
 string CASCommServerDAServerConfigurationTitle = "CAS.CommServer.DAServerConfiguration - CommServer Configuration Management";
 string CASCommServerDAServerConfigurationVersion = "4.1.2";
-string CASCommServerDAServerConfigurationPrerelease = "-Delta";
+string CASCommServerDAServerConfigurationPrerelease = "-Echo";
 
 //CAS.CommServer.DataProvider.Package
 string CASCommServerDataProviderPackageVersion = "3.80.02";
@@ -83,7 +83,7 @@ string CASCommServerProtocolHubPrerelease = "-Charlie";
 
 //CAS.CommServer.DA.ItemDescriber
 string CASCommServerDAItemDescriberVersion = "1.00.2";
-string CASCommServerDAItemDescriberPrerelease = "-Golf";
+string CASCommServerDAItemDescriberPrerelease = "-Hotel";
 
 //CAS.CommServer.DA.Client - Client Operations Library
 string CASCommSvrDAClientVersion = "2.00.14";
