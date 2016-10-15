@@ -104,7 +104,7 @@ string CASCommServerDAServerNETServerPrerelease = "-Alpha";
 
 //CAS.CommServer.DA.Viewer
 string CASCommServerDAViewerVersion = "3.10.06";
-string CASCommServerDAViewerPrerelease = "-Foxtrot";
+string CASCommServerDAViewerPrerelease = "-Hotel";
 
 //CAS.CommServer.OPCClassicSDK (previous: OPC.DA.SDK.Core)
 string OPCDASDKCoreName = "CAS.CommServer.OPCClassic.SDK";
@@ -117,7 +117,7 @@ string OPCDASDKCorePreRelease = "-Bravo";
 //CAS.CommServer.UA.Common  UA common library
 string CASUACommonProduct = "CAS.UA.Common";
 string CASUACommonVersion = "3.00.02";
-string CASUACommonPreRelease = "-Delta";
+string CASUACommonPreRelease = "-Delta"; 
 
 //CAS.UA.Model.Designer
 string CASUAMDProductName = "CAS OPC UA Address Space Model Designer";
