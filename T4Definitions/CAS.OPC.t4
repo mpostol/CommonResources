@@ -87,7 +87,7 @@ string CASCommServerDAItemDescriberPrerelease = "-Hotel";
 
 //CAS.CommServer.DA.Client - Client Operations Library
 string CASCommSvrDAClientVersion = "2.00.14";
-string CASCommSvrDAClientPrerelease = "-Foxtrot";
+string CASCommSvrDAClientPrerelease = "-Golf";
 
 //CAS.CommServer.DA.Configuration - common server and client configuration access library
 string CASCommServerDAConfigurationProduct = "CommServer DA";
