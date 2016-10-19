@@ -25,7 +25,7 @@ string CASCodeProtectProductVersion = "6.0.0";
 string CASCodeProtectProductPreRelease = "-Charlie";
 
 //CAS.Licenses
-string CASLicensesVersion = "2.00.02";
+string CASLicensesVersion = "2.00.06";
 string CASLicensesPreRelease = "";
 
 //CAS.MAML.HelpTopics.Content
