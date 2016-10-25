@@ -56,7 +56,7 @@ string CLibCoreProductFileVersion = "5.00.0";
 
 
 //CAS.CommServer - common part of all CommServers products.
-string CASCommServerVersion = "5.01.04";
+string CASCommServerVersion = "5.01.05";
 string CASCommServerPrerelease = "";
 
 //CAS.CommServer.DAClientConfiguration
