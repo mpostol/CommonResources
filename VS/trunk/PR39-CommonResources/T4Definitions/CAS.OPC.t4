@@ -102,7 +102,7 @@ string CASCommServerDAViewerPrerelease = "";
 //CAS.CommServer.OPCClassicSDK (previous: OPC.DA.SDK.Core)
 string OPCDASDKCoreName = "CAS.CommServer.OPCClassic.SDK";
 string OPCDASDKCoreTitle = "OPC Classic .NET API based on OPC Foundation SDK 2.01.106";
-string OPCDASDKCoreVersion = "2.01.1062";
+string OPCDASDKCoreVersion = "2.01.1063";
 string OPCDASDKCorePreRelease = "";
 
 //CommServer UA
