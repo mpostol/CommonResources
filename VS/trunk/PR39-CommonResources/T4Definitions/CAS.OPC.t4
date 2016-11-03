@@ -96,7 +96,7 @@ string CASCommServerDAServerNETServerVersion = "4.1.2";
 string CASCommServerDAServerNETServerPrerelease = "-Alpha";
 
 //CAS.CommServer.DA.Viewer
-string CASCommServerDAViewerVersion = "3.10.15";
+string CASCommServerDAViewerVersion = "3.11.16";
 string CASCommServerDAViewerPrerelease = "";
 
 //CAS.CommServer.OPCClassicSDK (previous: OPC.DA.SDK.Core)
