@@ -12,11 +12,10 @@ string Owner = "commsvr.com";
 
 //OPC.UA.SDK
 string OPCUASDKTitle = "OPC.UA.SDK";
-string OPCUASDKVersion = "1.01.3262";
-string OPCUASDKPrerelease = "-Bravo";
+string OPCUASDKVersion = "1.01.3263";
+string OPCUASDKPrerelease = "";
 
 //OPC.UA.SDK.Core
-string OPCUASDKCoreCoreName = "OPC.UA.SDK.Core";
 string OPCUASDKCoreCoreTitle = "OPC.UA.SDK.Core" + "-OPC Foundation .NET API";
 string OPCUASDKCoreCoreTrademark = "OPC.UA.SDK.Core" + "-CommServer.UA";
 
