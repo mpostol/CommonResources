@@ -5,8 +5,8 @@ string AssemblyCompany = "CAS";
 string AssemblyProduct = "CAS CommServer Family";
 string AssemblyTrademark = "CommServer";
 
-string Url = "www.commsvr.eu";
-string Email = "techsupp@cas.eu";
+string Url = "http://www.commsvr.com/";
+string Email = "commserver@cas.eu";
 string Phone = "+48 (42) 686 25 47";
 string Owner = "commsvr.com";
 
