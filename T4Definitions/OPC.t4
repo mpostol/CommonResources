@@ -23,8 +23,8 @@ string OPCUASDKCoreCoreTrademark = "OPC.UA.SDK.Core" + "-CommServer.UA";
 string OPCUASDKModelCompilerName = "OPC.UA.SDK.ModelCompiler";
 string OPCUASDKModelCompilerTitle = "OPC.UA.SDK.ModelCompiler" + "-CAS Distribution of ModelCompiler";
 string OPCUASDKModelCompilerTrademark = "OPC.UA.SDK.ModelCompiler" + "-CommServer.UA";
-string OPCUASDKModelCompilerVersion = "1.02.270";
-string OPCUASDKModelCompilerPreRelease = "-Alpha";
+string OPCUASDKModelCompilerVersion = "1.02.271";
+string OPCUASDKModelCompilerPreRelease = "-Bravo";
 
 //// OPC.UA.SDK.ModelCompiler.Core
 string OPCUASDKModelCompilerCoreVersion = "1.01.334.6";
