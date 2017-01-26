@@ -129,6 +129,9 @@ string CASCommServerUAConfigurationEditorProduct = "CommServer UA ConfigurationE
 string OPCUASDKCoreCoreTitle = "OPC.UA.SDK.Core" + "-OPC Foundation .NET API";
 string OPCUASDKCoreCoreTrademark = "OPC.UA.SDK.Core" + "-CommServer.UA";
 
+//CAS.CommServer.UA.ModelCompiler
+string CASCommServerUAModelCompilerVersion = "1.02.272";
+
 //CAS.CommServer.UA.ModelCompiler.Command
 string OPCUASDKModelCompilerName = "OPC.UA.SDK.ModelCompiler";
 string OPCUASDKModelCompilerTitle = "OPC.UA.SDK.ModelCompiler" + "-CAS Distribution of ModelCompiler";
