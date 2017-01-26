@@ -125,6 +125,27 @@ string CASCommServerUAConfigurationEditorVersion = "3.20.4";
 string CASCommServerUAConfigurationEditorPreRelease = "";
 string CASCommServerUAConfigurationEditorProduct = "CommServer UA ConfigurationEditor ServerConfiguration";
 
+//OPC.UA.SDK.Core
+string OPCUASDKCoreCoreTitle = "OPC.UA.SDK.Core" + "-OPC Foundation .NET API";
+string OPCUASDKCoreCoreTrademark = "OPC.UA.SDK.Core" + "-CommServer.UA";
+
+//CAS.CommServer.UA.ModelCompiler.Command
+string OPCUASDKModelCompilerName = "OPC.UA.SDK.ModelCompiler";
+string OPCUASDKModelCompilerTitle = "OPC.UA.SDK.ModelCompiler" + "-CAS Distribution of ModelCompiler";
+string OPCUASDKModelCompilerTrademark = "OPC.UA.SDK.ModelCompiler" + "-CommServer.UA";
+string OPCUASDKModelCompilerVersion = "1.02.272";
+string OPCUASDKModelCompilerPreRelease = "";
+
+//// CAS.CommServer.UA.ModelCompiler.Core
+string OPCUASDKModelCompilerCoreVersion = "1.01.334.62";
+
+//CAS.CommServer.UA.ModelCompiler.Common
+string OPCUASDKModelCompilerCommonName = "CAS.CommServer.UA.ModelCompiler.Common";
+string OPCUASDKModelCompilerCommonTitle = "CAS.CommServer.UA.ModelCompiler.Common" + "-OPC Foundation .NET API";
+string OPCUASDKModelCompilerCommonTrademark = "CAS.CommServer.UA.ModelCompiler.Common" + "-CommServer.UA";
+string OPCUASDKModelCompilerCommonVersion = "1.02.272";
+string OPCUASDKModelCompilerCommonPreRelease = "";
+
 // CAS.CommServer.UA.OOI
 string CASCommServerUAOOIVersion = "1.0.0";
 string CASCommServerUAOOIPreRelease = "-Alpha";
