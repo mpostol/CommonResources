@@ -130,23 +130,22 @@ string OPCUASDKCoreCoreTitle = "OPC.UA.SDK.Core" + "-OPC Foundation .NET API";
 string OPCUASDKCoreCoreTrademark = "OPC.UA.SDK.Core" + "-CommServer.UA";
 
 //CAS.CommServer.UA.ModelCompiler
-string CASCommServerUAModelCompilerVersion = "1.02.272";
+string CASCommServerUAModelCompilerVersion = "1.11.335.10"; //Synchronized with 1.01.335.1 on https://github.com/OPCFoundation/UA-ModelCompiler
 
 //CAS.CommServer.UA.ModelCompiler.Command
 string OPCUASDKModelCompilerName = "OPC.UA.SDK.ModelCompiler";
 string OPCUASDKModelCompilerTitle = "OPC.UA.SDK.ModelCompiler" + "-CAS Distribution of ModelCompiler";
 string OPCUASDKModelCompilerTrademark = "OPC.UA.SDK.ModelCompiler" + "-CommServer.UA";
-string OPCUASDKModelCompilerVersion = "1.02.272";
 string OPCUASDKModelCompilerPreRelease = "";
 
 //// CAS.CommServer.UA.ModelCompiler.Core
-string OPCUASDKModelCompilerCoreVersion = "1.01.334.62";
+string OPCUASDKModelCompilerCoreVersion = "1.11.335.10";
 
 //CAS.CommServer.UA.ModelCompiler.Common
 string OPCUASDKModelCompilerCommonName = "CAS.CommServer.UA.ModelCompiler.Common";
 string OPCUASDKModelCompilerCommonTitle = "CAS.CommServer.UA.ModelCompiler.Common" + "-OPC Foundation .NET API";
 string OPCUASDKModelCompilerCommonTrademark = "CAS.CommServer.UA.ModelCompiler.Common" + "-CommServer.UA";
-string OPCUASDKModelCompilerCommonVersion = "1.02.272";
+string OPCUASDKModelCompilerCommonVersion = "1.11.335.10";
 string OPCUASDKModelCompilerCommonPreRelease = "";
 
 // CAS.CommServer.UA.OOI
