@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2E6838A2-9C08-4F31-B6BD-9A38A0A619CB}"
 	ProjectSection(SolutionItems) = preProject
@@ -18,10 +18,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{3A59
 		Scripts\create_tag.cmd = Scripts\create_tag.cmd
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LicensesContainer", "LicensesContainer\LicensesContainer.csproj", "{234A138E-4E17-4F12-84A3-A920DDAE0D86}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LicenseContainer.UT", "LicenseContainer.UT\LicenseContainer.UT.csproj", "{149BC81B-7225-4C3F-B77D-D0A8982F72D1}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CASSnippets", "CASSnippets\CASSnippets.csproj", "{3FD79714-071F-43FF-8516-64ED72B7DFEC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T4Definitions", "T4Definitions\T4Definitions.csproj", "{D506423B-BA21-49E6-8C3B-88A771CA444E}"
@@ -32,13 +28,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{234A138E-4E17-4F12-84A3-A920DDAE0D86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{234A138E-4E17-4F12-84A3-A920DDAE0D86}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{234A138E-4E17-4F12-84A3-A920DDAE0D86}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{234A138E-4E17-4F12-84A3-A920DDAE0D86}.Release|Any CPU.Build.0 = Release|Any CPU
-		{149BC81B-7225-4C3F-B77D-D0A8982F72D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{149BC81B-7225-4C3F-B77D-D0A8982F72D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{149BC81B-7225-4C3F-B77D-D0A8982F72D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FD79714-071F-43FF-8516-64ED72B7DFEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3FD79714-071F-43FF-8516-64ED72B7DFEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FD79714-071F-43FF-8516-64ED72B7DFEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
