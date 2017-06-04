@@ -74,7 +74,7 @@ string CASCommServerDAClientConfigurationTitle = "OPC Classic Client Configurati
 //CAS.CommServer.DAServerConfiguration
 string CASCommServerDAServerConfigurationProduct = "CAS.CommServer.DAServerConfiguration";
 string CASCommServerDAServerConfigurationTitle = "CAS.CommServer.DAServerConfiguration - CAS.CommServer.ProtocolHub configuration";
-string ASCommServerDAServerConfigurationVersion = "5.02.00";
+string ASCommServerDAServerConfigurationVersion = "5.02.01";
 string ASCommServerDAServerConfigurationPrerelease = "";
 
 
