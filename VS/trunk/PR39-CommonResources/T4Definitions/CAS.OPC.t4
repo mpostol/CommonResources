@@ -79,7 +79,7 @@ string ASCommServerDAServerConfigurationPrerelease = "";
 
 
 //CAS.CommServer.DataProvider.Package
-string CASCommServerDataProviderPackageVersion = "3.90.04";
+string CASCommServerDataProviderPackageVersion = "3.90.05";
 string CASCommServerDataProviderPackagePrerelase = "";
 
 //CAS.CommServer.ProtocolHub
