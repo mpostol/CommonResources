@@ -86,6 +86,11 @@ string CASCommServerDataProviderPackagePrerelase = "";
 string CASCommServerProtocolHubVersion = "4.00.24";
 string CASCommServerProtocolHubPrerelease = "";
 
+//CAS.CommServer.ProtocolHub.ConfigurationEditor
+string CASCommServerProtocolHubConfigurationEditorVersion = "4.10.03";
+string CASCommServerProtocolHubConfigurationEditorPrerelease = "";
+
+
 //CAS.CommServer.DA
 
 //CAS.CommServer.DA.Client - Client Operations Library
