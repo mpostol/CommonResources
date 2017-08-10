@@ -95,7 +95,7 @@ string CASCommServerProtocolHubMonitorInterfaceVersion = "4.01.00";
 string CASCommServerProtocolHubMonitorInterfacePrerelease = "";
 
 //CAS.CommServer.ProtocolHub.ConfigurationEditor
-string CASCommServerProtocolHubConfigurationEditorVersion = "4.10.03";
+string CASCommServerProtocolHubConfigurationEditorVersion = "4.10.04";
 string CASCommServerProtocolHubConfigurationEditorPrerelease = "";
 
 
