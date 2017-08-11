@@ -83,11 +83,13 @@ string CASCommServerDataProviderPackageVersion = "3.90.05";
 string CASCommServerDataProviderPackagePrerelase = "";
 
 //CAS.CommServer.ProtocolHub
+string CASCommServerProtocolHubTagVersion = "4.10.04";
+
 string CASCommServerProtocolHubVersion = "4.02.00";
 string CASCommServerProtocolHubPrerelease = "";
 
 //CAS.CommServer.ProtocolHub.Monitor
-string CASCommServerProtocolHubMonitorVersion = "4.02.00";
+string CASCommServerProtocolHubMonitorVersion = "4.02.02";
 string CASCommServerProtocolHubMonitorPrerelease = "";
 
 //CAS.CommServer.ProtocolHub.MonitorInterface
