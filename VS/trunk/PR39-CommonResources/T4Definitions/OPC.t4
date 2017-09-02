@@ -10,6 +10,10 @@ string Email = "commserver@cas.eu";
 string Phone = "+48 (42) 686 25 47";
 string Owner = "commsvr.com";
 
+//OpcRcw.Comn
+string  OpcRcwComnVersion = "1.10.2.0";
+string  OpcRcwComnPrerelease = "";
+
 //OPC.UA.SDK
 string OPCUASDKTitle = "OPC.UA.SDK";
 string OPCUASDKVersion = "1.01.3265";
