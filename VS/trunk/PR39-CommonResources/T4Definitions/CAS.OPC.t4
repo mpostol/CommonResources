@@ -100,8 +100,6 @@ string CASCommServerProtocolHubMonitorInterfacePrerelease = "";
 string CASCommServerProtocolHubConfigurationEditorVersion = "4.10.04";
 string CASCommServerProtocolHubConfigurationEditorPrerelease = "";
 
-
-
 //CAS.CommServer.DA
 
 //CAS.CommServer.DA.Client - Client Operations Library
@@ -129,6 +127,8 @@ string OPCDASDKCoreName = "CAS.CommServer.OPCClassic.SDK";
 string OPCDASDKCoreTitle = "OPC Classic .NET API based on OPC Foundation SDK 2.01.106";
 string OPCDASDKCoreVersion = "2.01.1063";
 string OPCDASDKCorePreRelease = "";
+string OPCDASDKCOMWrapperVersion = "3.0.0";
+string OPCDACOMWrapperPreRelease = "-Alpha";
 
 //CommServer UA
 
