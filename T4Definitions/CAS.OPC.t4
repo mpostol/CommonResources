@@ -103,7 +103,7 @@ string CASCommServerProtocolHubConfigurationEditorPrerelease = "";
 //CAS.CommServer.DA
 
 //CAS.CommServer.DA.Client - Client Operations Library
-string CASCommSvrDAClientVersion = "2.00.18";
+string CASCommSvrDAClientVersion = "2.00.19";
 string CASCommSvrDAClientPrerelease = "";
 
 //CAS.CommServer.DA.Configuration - common server and client configuration access library
