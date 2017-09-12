@@ -128,7 +128,7 @@ string OPCDASDKCoreTitle = "OPC Classic .NET API based on OPC Foundation SDK 2.0
 string OPCDASDKCoreVersion = "2.01.1063";
 string OPCDASDKCorePreRelease = "";
 string OPCDASDKCOMWrapperVersion = "3.0.0";
-string OPCDACOMWrapperPreRelease = "-Alpha";
+string OPCDACOMWrapperPreRelease = "-Bravo";
 
 //CommServer UA
 
