@@ -116,7 +116,7 @@ string CASCommServerDADataPorterVersion = "2.00.12";
 string CASCommServerDADataPorterPrerelease = "";
 
 //"CAS.CommServer.DA.Server.NETServer
-string CASCommServerDAServerNETServerVersion = "4.3.1";
+string CASCommServerDAServerNETServerVersion = "4.3.2";
 
 //CAS.CommServer.DA.Viewer
 string CASCommServerDAViewerVersion = "3.11.17";
