@@ -139,7 +139,7 @@ string CASUACommonPreRelease = "";
 
 //CAS.UA.Model.Designer
 string CASUAMDProductName = "CAS OPC UA Address Space Model Designer";
-string CASUAMDVersion = "3.20.2";
+string CASUAMDVersion = "4.0.0";
 
 //CAS.CommServer.UA.ConfigurationEditor
 string CASCommServerUAConfigurationEditorVersion = "3.20.4";
